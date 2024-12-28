@@ -129,7 +129,7 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
 In the [`examples/`](./examples) folder, you'll find:
 
 1. **`qr-example-T9999.png`** – a *sample* QR code encoding the text `T9999`.\
-![Sample QR code encoding text `T9999`](examples\qr-example-T9999.png)
+![Sample QR code encoding text `T9999`](examples/qr-example-T9999.png)
    - This is purely for demonstration.
    - **Not** an actual ZET vehicle number (hopefully).
 2. **`ntag213-dump-sample.bin`** – a *sample* NFC NDEF dump containing the text `T9999`, along with the mentioned metadata.
