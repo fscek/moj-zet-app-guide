@@ -1,7 +1,7 @@
-# Moj ZET Mobile App – QR & NFC "Advance Purchase" Guide
+# Moj ZET Mobile App – QR & NFC "Advance Ticket Purchase" Guide
 
-> **Looking for the Croatian version?**  
-> [Kliknite ovdje za README na hrvatskom jeziku](README_HR.md)
+> **Looking for the Croatian version?**
+> [Kliknite ovdje za hrvatski jezik](README_HR.md)
 
 ## Disclaimer
 
@@ -10,7 +10,7 @@
 
 ## Table of Contents
 
-- [Moj ZET Mobile App – QR & NFC "Advance Purchase" Guide](#moj-zet-mobile-app--qr--nfc-advance-purchase-guide)
+- [Moj ZET Mobile App – QR & NFC "Advance Ticket Purchase" Guide](#moj-zet-mobile-app--qr--nfc-advance-ticket-purchase-guide)
   - [Disclaimer](#disclaimer)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
@@ -29,7 +29,7 @@
   - [Additional Technical Details](#additional-technical-details)
   - [Encouraging Proper Use](#encouraging-proper-use)
   - [Future Changes / Updates](#future-changes--updates)
-  - [Honorary Mentions](#honorary-mentions)
+  - [Additional Resources](#additional-resources)
     - [ZetLoc](#zetloc)
     - [ZET info](#zet-info)
       - [GTFS Realtime Feed Disclaimer](#gtfs-realtime-feed-disclaimer)
@@ -65,33 +65,33 @@ For official app installation and usage instructions, see [this guide](https://w
 
 ## How It Works
 
-The **Moj ZET** app typically identifies the vehicle you're on by scanning a sticker containing informations like:
+The **Moj ZET** app typically identifies the vehicle you're on by scanning a sticker containing information like:
 
 - **Trams**: `T<VEHICLE_GARAGE_NUMBER>` (e.g., `T22130` for a tram numbered 22130)
 - **Buses**: `B<VEHICLE_GARAGE_NUMBER>` (e.g., `B375` for a bus numbered 375)
 
-*Vehicles bearing the aforementioned garage numbers:*
+*Vehicles bearing the aforementioned garage numbers:*\
+![Vehicles bearing the aforementioned garage numbers](images/230529_Moj_ZET_resized_1.jpeg)\
+*Source: City of Zagreb via [www.zagreb.hr](https://www.zagreb.hr/en/predstavljena-aplikacija-moj-zet-za-digitalnu-kupn/188168)*
 
-![Vehicles bearing the aforementioned garage numbers](images/230529_Moj_ZET_resized_1.jpeg)
+### About The Stickers
 
-*Attribution: City of Zagreb via [www.zagreb.hr](https://www.zagreb.hr)*
+*Example sticker in a tram:*\
+![Example sticker in a tram](images/230529_Moj_ZET_resized_4.jpeg)\
+*Source: City of Zagreb via [www.zagreb.hr](https://www.zagreb.hr/en/predstavljena-aplikacija-moj-zet-za-digitalnu-kupn/188168)*
 
-### QR Codes
+#### QR Codes
 
 - The **official** onboard QR code is a simple string like `T22130` or `B375`.
 - When scanned, the app believes you're on that vehicle.
 
-### NFC Tags (NTAG213)
+#### NFC Tags (NTAG213)
 
 - Official ZET NFC stickers contain the same `T22130` text (or whichever the garage number is), along with some minor metadata used by the app.
 - They use the **NDEF** format on an **NTAG213** chip.
-- The NFC tag, while slightly hidden on the front of the sticker, can be clearly seen when viewing the sticker from the back.
-
-*Example sticker in a tram:*
-
-![Example sticker in a tram](images/230529_Moj_ZET_resized_4.jpeg)
-
-*Attribution: City of Zagreb via [www.zagreb.hr](https://www.zagreb.hr)*
+- The NFC tag, while slightly hidden on the front of the sticker, can be clearly seen when viewing the sticker from the back:
+![NTAG213 tag example](images/moj-ZET-QR-karta-tramvaj-Zagreb-2.jpeg)\
+*Source: Portofon.com via [www.portofon.com](https://www.portofon.com/savjeti/kako-se-koristi-aplikacija-moj-zet)*
 
 ---
 
@@ -107,7 +107,7 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
    - **Note:** I have yet to confirm whether *any* number works or if it must exist in the app's vehicle database.
 3. **Print**
    - Print a small sticker or label (on sticker paper, or as a small laminated card) containing the QR code and attach it to a commonly used personal item.
-   - You **cannot** import a locally saved QR code *directly* into the Moj ZET app, so having a physical code on a wallet/keychain is most convenient.
+   - You **cannot** import a locally saved QR code *directly* into the **Moj ZET** app, so having a physical code on a wallet/keychain is most convenient.
 
 ### Writing to an NTAG213 Tag
 
@@ -127,19 +127,17 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
 
 ## Example Files
 
-(To be completed later.)
-
 In the [`examples/`](./examples) folder, you'll find:
 
 1. **`qr-example-T9999.png`** – a *sample* QR code encoding the text `T9999`.\
 ![Sample QR code encoding text `T9999`](examples/qr-example-T9999.png)
    - This is purely for demonstration.
    - **Not** an actual ZET vehicle number (hopefully).
-2. **`ntag213-dump-sample.bin`** – a *sample* NFC NDEF dump containing the text `T9999`, along with the mentioned metadata.
+2. **`ntag213-dump-sample.bin`** – a *sample* NFC NDEF dump containing the text `T9999`, along with the mentioned metadata. (To be added soon.)
    - Also for demonstration only.
-   - May or may not work with the Moj ZET app, depending on future updates.
+   - May or may not work with the **Moj ZET** app, depending on future updates.
 
-> **Disclaimer**: These example files are shared solely to illustrate how the data might look or be structured. They **do not** represent an official ZET tag or code and may not be recognised by Moj ZET. Use at your own risk, and always follow ZET's Terms & Conditions.
+> **Disclaimer**: These example files are shared solely to illustrate how the data might look or be structured. They **do not** represent an official ZET tag or code and may not be recognised by **Moj ZET**. Use at your own risk, and always follow ZET's Terms & Conditions.
 
 ---
 
@@ -149,7 +147,7 @@ In the **Moj ZET** app, before scanning or detecting a code/tag, you can select:
 
 - **Zone 1**, **Zone 2**, or the **Zagreb Funicular**, along with ticket durations for each zone.
   - A combined **Zone 1+2** option is also available.
-- **Funicular** tickets can also be purchased via the same process (choose “*Uspinjača*” instead of a zone).
+- **Funicular** tickets can also be purchased via the same process (choose "*Uspinjača*" instead of a zone).
   - The funicular tickets (sometimes labelled as **Zone 4** in the app) are strictly **one-way** (up or down single tickets).
 - GPS is optional — if disabled, the app will ask you to manually select your zone.
 
@@ -192,11 +190,11 @@ ZET may:
 - Enforce stricter checks on vehicle data vs. user location.
 - Change the app to reject external codes.
 
-As a daily user of the app, I'll monitor its behaviour and update this guide accordingly. If you notice that the app starts enforcing vehicle-number matching, please open an issue.
+As a daily user of the app, I'll monitor its behaviour and update this guide accordingly. If you notice that the app starts enforcing vehicle-number matching, please open [an issue](https://github.com/fscek/moj-zet-app-guide/issues).
 
 ---
 
-## Honorary Mentions
+## Additional Resources
 
 ### ZetLoc
 
