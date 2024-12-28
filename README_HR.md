@@ -154,7 +154,7 @@ U mapi [`examples/`](./examples) nalaze se:
 U aplikaciji **Moj ZET**, prije skeniranja ili očitavanja koda/oznake, možete odabrati:
 
 - **Zonu 1**, **Zonu 2** ili zagrebačku uspinjaču, uz različito trajanje karata.
-  - Dostupna je i **Zajednička zona 1+2**.
+  - Dostupna je i **Karta II zone - 180 minuta** koja vrijedi za obje zone.
 - **Uspinjača** se kupuje na isti način (odaberete "*Uspinjača*" umjesto zone).
   - Karte za uspinjaču (ponekad navedene kao **Zona 4** u aplikaciji) vrijede samo **u jednom smjeru** (gore ili dolje).
 - GPS je opcionalan – ako je isključen, aplikacija će vas ručno zatražiti da odaberete zonu.

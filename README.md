@@ -146,7 +146,7 @@ In the [`examples/`](./examples) folder, you'll find:
 In the **Moj ZET** app, before scanning or detecting a code/tag, you can select:
 
 - **Zone 1**, **Zone 2**, or the **Zagreb Funicular**, along with ticket durations for each zone.
-  - A combined **Zone 1+2** option is also available.
+  - A combined **Karta II zone - 180 minuta** option is also available, allowing travel in both zones.
 - **Funicular** tickets can also be purchased via the same process (choose "*Uspinjača*" instead of a zone).
   - The funicular tickets (sometimes labelled as **Zone 4** in the app) are strictly **one-way** (up or down single tickets).
 - GPS is optional — if disabled, the app will ask you to manually select your zone.
