@@ -1,5 +1,8 @@
 # Moj ZET Mobile App – QR & NFC "Advance Purchase" Guide
 
+> **Looking for the Croatian version?**  
+> [Kliknite ovdje za README na hrvatskom jeziku](README_HR.md)
+
 ## Disclaimer
 
 > Myself and this project are **not** affiliated with Zagrebački električni tramvaj d.o.o. (ZET). The content below is shared solely for **educational and informational purposes** and reflects the system's behaviour as observed at the time of writing. I do **not** guarantee that this method is officially approved or that it will work indefinitely. By using these instructions, you agree to assume all responsibility for your actions, including compliance with ZET's Terms & Conditions and local transport regulations.
