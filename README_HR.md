@@ -92,7 +92,7 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 
 - Službene ZET NFC naljepnice sadrže tekst `T22130` (ili odgovarajući garažni broj), plus moguće dodatne metapodatke.
 - Koriste **NDEF** format na **NTAG213** čipu.
-- NFC čip, iako pomalo skriven na prednjoj strani naljepnice, može se jasno vidjeti ako se promatra sa stražnje strane:
+- NFC čip, iako pomalo skriven na prednjoj strani naljepnice, može se jasno vidjeti ako se promatra sa stražnje strane:\
 ![Primjer NTAG213 čipa na poleđini naljepnice](images/moj-ZET-QR-karta-tramvaj-Zagreb-2.jpeg)\
 *Izvor: Portofon.com putem [www.portofon.com](https://www.portofon.com/savjeti/kako-se-koristi-aplikacija-moj-zet)*
 

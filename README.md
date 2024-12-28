@@ -89,7 +89,7 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
 
 - Official ZET NFC stickers contain the same `T22130` text (or whichever the garage number is), along with some minor metadata used by the app.
 - They use the **NDEF** format on an **NTAG213** chip.
-- The NFC tag, while slightly hidden on the front of the sticker, can be clearly seen when viewing the sticker from the back:
+- The NFC tag, while slightly hidden on the front of the sticker, can be clearly seen when viewing the sticker from the back:\
 ![NTAG213 tag example](images/moj-ZET-QR-karta-tramvaj-Zagreb-2.jpeg)\
 *Source: Portofon.com via [www.portofon.com](https://www.portofon.com/savjeti/kako-se-koristi-aplikacija-moj-zet)*
 
