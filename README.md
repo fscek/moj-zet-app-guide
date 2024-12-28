@@ -1,6 +1,6 @@
-# Moj ZET Mobile App – QR & NFC “Advance Purchase” Guide
+# Moj ZET Mobile App – QR & NFC "Advance Purchase" Guide
 
-> **Disclaimer**  
+> **Disclaimer**
 > Myself and this project are **not** affiliated with Zagrebački električni tramvaj d.o.o. (ZET). The content below is shared solely for **educational and informational purposes** and reflects the system's behaviour as observed at the time of writing. I do **not** guarantee that this method is officially approved or that it will work indefinitely. By using these instructions, you agree to assume all responsibility for your actions, including compliance with ZET's Terms & Conditions and local transit regulations.
 > The app's T&Cs can be found [here](https://moj.zet.hr/Account/About).
 
@@ -8,7 +8,7 @@
 
 ## Table of Contents
 
-- [Moj ZET Mobile App – QR \& NFC “Advance Purchase” Guide](#moj-zet-mobile-app--qr--nfc-advance-purchase-guide)
+- [Moj ZET Mobile App – QR & NFC "Advance Purchase" Guide](#moj-zet-mobile-app--qr--nfc-advance-purchase-guide)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Important Disclaimers](#important-disclaimers)
@@ -26,7 +26,7 @@
   - [Future Changes / Updates](#future-changes--updates)
   - [License](#license)
   - [Contact / Issues](#contact--issues)
-    - [Disclaimer (Reiterated)](#disclaimer-reiterated)
+  - [Disclaimer (Reiterated)](#disclaimer-reiterated)
 
 ---
 
@@ -34,7 +34,7 @@
 
 Passengers may find it inconvenient to physically scan the official QR codes or NFC tags placed inside ZET vehicles due to their awkward locations — especially when it's crowded. With the **Moj ZET** mobile app, you can quickly purchase a ticket by scanning a code representing the vehicle number (e.g., `T22130`).
 
-- **Goal**: Enable people to generate and carry **their own** scannable QR or NFC tag in advance to speed up ticket purchasing.  
+- **Goal**: Enable people to generate and carry **their own** scannable QR or NFC tag in advance to speed up ticket purchasing.
 - **Scope**: This guide explains how to create a personal QR code or blank NFC tag that the app recognises the same way it would an official sticker. You can then keep it in your wallet, on your keychain, or on a personally written NTAG213 sticker.
 
 For official app installation and usage instructions, see [this guide](https://www.zet.hr/cijene-prodaja-i-placanje/aplikacija-mojzet/8098).
@@ -105,15 +105,15 @@ In the [`examples/`](./examples) folder, you'll find:
 
 ### Creating a QR Code
 
-1. **Choose a QR Generation Method**  
+1. **Choose a QR Generation Method**
    - For instance, use [Project Nayuki's QR Code generator library](https://www.nayuki.io/page/qr-code-generator-library) or another online generator.
 
-2. **Enter the Text**  
+2. **Enter the Text**
    - For example, `T22130` (tram #22130) or `B375` (bus #375).
      - Adjust for your preferred or most-frequent vehicle, it doesn't really matter.
    - **Note:** I have yet to confirm whether *any* number works or if it must exist in the app's vehicle database.
-3. **Print**  
-   - Print a small sticker containing the QR code and attach it to a commonly used personal item.  
+3. **Print**
+   - Print a small sticker containing the QR code and attach it to a commonly used personal item.
    - You **cannot** import a locally saved QR code *directly* into the Moj ZET app, so having a physical code on a wallet/keychain is most convenient.
 
 ### Writing to an NTAG213 Tag
@@ -122,13 +122,13 @@ In the [`examples/`](./examples) folder, you'll find:
    - These are widely available (e.g., [AliExpress](https://www.aliexpress.com/wholesale?SearchText=ntag213)), often at low cost.
    - Ensure your phone supports NFC writing. iPhones can write to NTAG213 but may have some limitations depending on iOS version or if an older (I believe, pre-iPhone 7+) device is used.
 
-2. **Install an NFC Writing App**  
+2. **Install an NFC Writing App**
    - For example, [NFC Tools](https://www.wakdev.com/en/apps/nfc-tools-android.html) (available on both Android & iOS).
      - [Android](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc)
      - [iPhone](https://apps.apple.com/hr/app/nfc-tools/id1252962749)
    - Alternatively, [NXP TagWriter](https://play.google.com/store/apps/details?id=com.nxp.nfc.tagwriter) is a popular choice on Android.
 
-3. **Create a Text Record**  
+3. **Create a Text Record**
    - Write a text record (NDEF) with your chosen vehicle number, e.g. `T22130` or `B375`.
 
 ---
@@ -170,7 +170,7 @@ In the **Moj ZET** app, before scanning or detecting a code/tag, you can select:
 
 ## Encouraging Proper Use
 
-- **Buy Before or Upon Boarding**: You are responsible for having a valid ticket. Do not wait until inspectors appear.  
+- **Buy Before or Upon Boarding**: You are responsible for having a valid ticket. Do not wait until inspectors appear.
 - **Respect Transit Rules**: This method is meant to avoid physically scanning the official sticker in a crowd or when a sticker is missing/obscured, **not** to cheat the system.
 
 ---
@@ -179,7 +179,7 @@ In the **Moj ZET** app, before scanning or detecting a code/tag, you can select:
 
 ZET may:
 
-- Enforce stricter checks on vehicle data vs. user location.  
+- Enforce stricter checks on vehicle data vs. user location.
 - Change the app to reject external codes.
 
 As a daily user of the app, I'll monitor its behaviour and update this guide accordingly. If you notice that the app starts enforcing vehicle-number matching, please open an issue.
@@ -194,12 +194,12 @@ This guide and any accompanying assets (that are **not** ZET's intellectual prop
 
 ## Contact / Issues
 
-- **Project Inquiries**: Open a GitHub issue or pull request if you find errors or have improvements.  
-- **Official ZET Inquiries**: For questions about ZET policies, see the [ZET website](https://www.zet.hr/).  
+- **Project Inquiries**: Open a GitHub issue or pull request if you find errors or have improvements.
+- **Official ZET Inquiries**: For questions about ZET policies, see the [ZET website](https://www.zet.hr/).
 - **Legal Notice**: If ZET requests removal or changes to content violating their terms, I will comply promptly.
 
 ---
 
-### Disclaimer (Reiterated)
+## Disclaimer (Reiterated)
 
 I share these observations in good faith to help riders purchase tickets more easily. **I am not responsible** for misuse or violations of transit rules. By using this guide, you acknowledge that **you alone** are responsible for complying with ZET's Terms & Conditions.
