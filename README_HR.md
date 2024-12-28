@@ -42,7 +42,8 @@
 
 ## Pregled
 
-Putnicima može biti nezgodno fizički skenirati službene QR kodove ili NFC oznake postavljene unutar vozila ZET-a, osobito kada su lokacije nezgodne ili ako je velika gužva. Uz mobilnu aplikaciju **Moj ZET** možete brzo kupiti kartu skeniranjem koda koji označava broj vozila (npr. `T22130`).
+Uz mobilnu aplikaciju **Moj ZET** omogućena je kupnja karte skeniranjem naljepnica (koje sadržavaju QR kodove i NFC oznake) s označenim brojem vozila (npr. `T22130`).\
+Međutim, putnicima može biti nezgodno fizički skenirati službene naljepnice postavljene unutar vozila ZET-a, osobito radi nezgodne lokacije naljepnica ili u slučaju velikih gužvi.
 
 ### Cilj
 
@@ -103,11 +104,11 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 ### Izrada QR koda
 
 1. **Odaberite metodu izrade QR koda**
-   - Primjer: [Project Nayuki's QR Code generator library](https://www.nayuki.io/page/qr-code-generator-library) ili neko drugo online rješenje.
+   - Primjer: [Project Nayuki QR Code generator library](https://www.nayuki.io/page/qr-code-generator-library) ili neko drugo rješenje.
 
 2. **Unesite tekst**  
    - Npr. `T22130` (tramvaj #22130) ili `B375` (autobus #375).
-   - Prilagodite prema vozilu koje najčešće koristite.
+   - Prilagodite prema vozilu koje najčešće koristite. Nije posebno bitno dokle god to vozilo i zapravo postoji.
    - **Napomena:** Još nije potvrđeno vrijedi li bilo koji broj ili mora biti unesen u aplikacijsku bazu podataka.
 
 3. **Ispišite**  

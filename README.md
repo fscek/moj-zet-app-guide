@@ -39,7 +39,8 @@
 
 ## Overview
 
-Passengers may find it inconvenient to physically scan the official QR codes or NFC tags placed inside ZET vehicles due to their awkward locations — especially when it's crowded. With the **Moj ZET** mobile app, you can quickly purchase a ticket by scanning a code representing the vehicle number (e.g., `T22130`).
+With the **Moj ZET** mobile app, you can quickly purchase a ticket by scanning an official sticker (containing QR codes or NFC tags) representing the vehicle number (e.g., `T22130`).\
+However, passengers may find it inconvenient to physically scan the stickers placed inside ZET vehicles due to their awkward locations — especially when it's crowded.
 
 ### Goal
 
@@ -205,7 +206,7 @@ It also accepts comma-separated value inputs, such as `2,6,11`, in order to see 
 
 ### ZET info
 
-*ZET info* is a well-known Android & iOS app, also tapped in the ZET GTFS Realtime feed data. It enables you to see stations, upcoming arrivals and more. A must have when using Zagreb public transport.
+*ZET info* is a well-known Android & iOS app, also using the ZET GTFS Realtime feed data. It enables you to see stations, upcoming arrivals and more. A must have when using Zagreb public transport.
 
 [`ZET info` Web](https://zet-info.com)
 
