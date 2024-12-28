@@ -136,7 +136,7 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 
 U mapi [`examples/`](./examples) nalaze se:
 
-1. **`qr-example-T9999.png`** – *primjer* QR koda koji sadrži tekst `T9999`.
+1. **`qr-example-T9999.png`** – *primjer* QR koda koji sadrži tekst `T9999`.\
    ![Primjer QR koda s tekstom `T9999`](examples/qr-example-T9999.png)
    - Služi samo za demonstraciju.
    - **Nije** pravi ZET garažni broj (nadamo se).
