@@ -8,7 +8,25 @@
 
 ## Table of Contents
 
-(To be created later.)
+- [Moj ZET Mobile App – QR \& NFC “Advance Purchase” Guide](#moj-zet-mobile-app--qr--nfc-advance-purchase-guide)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Important Disclaimers](#important-disclaimers)
+  - [How It Works](#how-it-works)
+    - [QR Codes](#qr-codes)
+    - [NFC Tags (NTAG213)](#nfc-tags-ntag213)
+  - [Example Files](#example-files)
+  - [Step-by-Step: Generating Your Own QR Codes or NFC Tags](#step-by-step-generating-your-own-qr-codes-or-nfc-tags)
+    - [Creating a QR Code](#creating-a-qr-code)
+    - [Writing to an NTAG213 Tag](#writing-to-an-ntag213-tag)
+  - [Zone and Funicular Selection](#zone-and-funicular-selection)
+  - [Usage \& Validation Notes](#usage--validation-notes)
+  - [Additional Technical Details](#additional-technical-details)
+  - [Encouraging Proper Use](#encouraging-proper-use)
+  - [Future Changes / Updates](#future-changes--updates)
+  - [License](#license)
+  - [Contact / Issues](#contact--issues)
+    - [Disclaimer (Reiterated)](#disclaimer-reiterated)
 
 ---
 
@@ -83,7 +101,7 @@ In the [`examples/`](./examples) folder, you'll find:
 
 ---
 
-## Step-by-Step: Generating Your Own Codes or NFC Tags
+## Step-by-Step: Generating Your Own QR Codes or NFC Tags
 
 ### Creating a QR Code
 
