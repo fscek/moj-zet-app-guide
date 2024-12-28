@@ -139,7 +139,7 @@ U mapi [`examples/`](./examples) nalaze se:
 1. **`qr-example-T9999.png`** – *primjer* QR koda koji sadrži tekst `T9999`.\
    ![Primjer QR koda s tekstom `T9999`](examples/qr-example-T9999.png)
    - Služi samo za demonstraciju.
-   - **Nije** pravi ZET garažni broj (nadamo se).
+   - **Nije** pravi ZET garažni broj (bar se nadam).
 
 2. **`ntag213-dump-sample.bin`** – *primjer* NFC NDEF zapisa s tekstom `T9999`, uz dodatne metapodatke. (Ovo će biti dodano ubrzo.)
    - Također samo za demonstraciju.
