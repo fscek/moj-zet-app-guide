@@ -4,7 +4,7 @@ layout: default
 
 ---
 
-# Croatian Guide
+# Vodič na hrvatskom
 
 > **VAŽNO**\
 > Ovaj dokument je stvoren **strojnim prevođenjem** izvornog README dokumenta na engleskom jeziku. Za potpunu točnost i kontekst, molimo provjerite [izvorni README na engleskom](index.md).\
@@ -17,7 +17,7 @@ layout: default
 
 ## Sadržaj
 
-- [Moj ZET mobilna aplikacija – Vodič za kupnju karata (QR i NFC)](#moj-zet-mobilna-aplikacija--vodič-za-kupnju-karata-qr-i-nfc)
+- [Vodič na hrvatskom](#vodič-na-hrvatskom)
   - [Upozorenje (Disclaimer)](#upozorenje-disclaimer)
   - [Sadržaj](#sadržaj)
   - [Pregled](#pregled)
@@ -25,8 +25,9 @@ layout: default
     - [Opseg](#opseg)
   - [Važne napomene](#važne-napomene)
   - [Kako funkcionira](#kako-funkcionira)
-    - [QR kodovi](#qr-kodovi)
-    - [NFC oznake (NTAG213)](#nfc-oznake-ntag213)
+    - [Više o naljepnicama](#više-o-naljepnicama)
+      - [QR kodovi](#qr-kodovi)
+      - [NFC oznake (NTAG213)](#nfc-oznake-ntag213)
   - [Korak-po-korak: Izrada vlastitih QR kodova ili NFC oznaka](#korak-po-korak-izrada-vlastitih-qr-kodova-ili-nfc-oznaka)
     - [Izrada QR koda](#izrada-qr-koda)
     - [Pisanje na NTAG213 oznaku](#pisanje-na-ntag213-oznaku)

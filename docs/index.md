@@ -16,7 +16,7 @@ layout: default
 
 ## Table of Contents
 
-- [Moj ZET Mobile App – Ticket Purchase Guide (QR & NFC)](#moj-zet-mobile-app--ticket-purchase-guide-qr--nfc)
+- [English Guide](#english-guide)
   - [Disclaimer](#disclaimer)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
