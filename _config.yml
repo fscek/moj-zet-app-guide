@@ -1,0 +1,7 @@
+title: "Moj ZET App Guide"
+description: "a practical guide for advanced use of the Moj ZET App"
+
+# Remote theme setup
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
