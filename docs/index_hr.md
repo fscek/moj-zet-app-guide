@@ -12,10 +12,14 @@ title: Vodič na hrvatskom
 > Ovaj dokument je stvoren **strojnim prevođenjem** izvornog README dokumenta na engleskom jeziku. Za potpunu točnost i kontekst, molimo provjerite [izvorni README na engleskom](index.md).\
 > Oba dokumenta će biti sadržajno usklađeni.
 
+---
+
 ## Upozorenje (Disclaimer)
 
 > Ja i ovaj projekt **nismo** povezani s društvom Zagrebački električni tramvaj d.o.o. (ZET). Sadržaj u nastavku služi **isključivo u edukativne i informativne svrhe**, te odražava ponašanje sustava prema zapažanjima u trenutku pisanja. **Ne jamčim** da je ova metoda službeno odobrena ili da će trajno funkcionirati. Korištenjem ovih uputa prihvaćate **punu odgovornost** za svoje postupke, uključujući poštivanje ZET-ovih Uvjeta korištenja te propisa o javnom prijevozu.
 > Uvjete korištenja aplikacije možete pronaći [ovdje](https://moj.zet.hr/Account/About){:target="_blank" rel="noopener"}.
+
+---
 
 <details markdown="block">
   <summary>Sadržaj</summary>
@@ -24,8 +28,6 @@ title: Vodič na hrvatskom
 1. TOC
 {:toc}
 </details>
-
----
 
 ## Pregled
 
