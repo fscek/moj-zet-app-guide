@@ -23,3 +23,5 @@ nav_external_links:
    opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
 
 color_scheme: dark
+
+footer_content: "Copyright &copy; 2024 Filip Šćekić. Distributed by an <a href=\"https://github.com/fscek/moj-zet-app-guide/blob/main/LICENSE\">MIT license.</a>"
