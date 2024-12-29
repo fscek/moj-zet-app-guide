@@ -12,8 +12,8 @@ just_the_docs:
   collapse_section_nav: true
 
 nav:
-  - "English Guide": "docs/index.md"
-  - "Croatian Guide": "docs/index_hr.md"
+  - "English Guide": "index.md"
+  - "Croatian Guide": "index_hr.md"
 nav_enabled: true
 
 search_enabled: true
