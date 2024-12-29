@@ -36,4 +36,7 @@ nav_external_links:
 
 color_scheme: dark
 
+back_to_top: true
+back_to_top_text: "⬆️"
+
 footer_content: "Copyright &copy; 2024 Filip Šćekić. Distributed by an <a href=\"https://github.com/fscek/moj-zet-app-guide/blob/main/LICENSE\">MIT license.</a>"
