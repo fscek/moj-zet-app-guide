@@ -17,36 +17,13 @@ title: Vodič na hrvatskom
 > Ja i ovaj projekt **nismo** povezani s društvom Zagrebački električni tramvaj d.o.o. (ZET). Sadržaj u nastavku služi **isključivo u edukativne i informativne svrhe**, te odražava ponašanje sustava prema zapažanjima u trenutku pisanja. **Ne jamčim** da je ova metoda službeno odobrena ili da će trajno funkcionirati. Korištenjem ovih uputa prihvaćate **punu odgovornost** za svoje postupke, uključujući poštivanje ZET-ovih Uvjeta korištenja te propisa o javnom prijevozu.
 > Uvjete korištenja aplikacije možete pronaći [ovdje](https://moj.zet.hr/Account/About){:target="_blank" rel="noopener"}.
 
-## Sadržaj
-{: .no_toc }
+<details markdown="block">
+  <summary>Sadržaj</summary>
+  {: .text-delta }
 
-- [**Moj ZET** mobilna aplikacija – Vodič za kupnju karata (QR i NFC)](#moj-zet-mobilna-aplikacija--vodič-za-kupnju-karata-qr-i-nfc)
-  - [Upozorenje (Disclaimer)](#upozorenje-disclaimer)
-  - [Sadržaj](#sadržaj)
-  - [Pregled](#pregled)
-    - [Cilj](#cilj)
-    - [Opseg](#opseg)
-  - [Važne napomene](#važne-napomene)
-  - [Kako funkcionira](#kako-funkcionira)
-    - [Više o naljepnicama](#više-o-naljepnicama)
-      - [QR kodovi](#qr-kodovi)
-      - [NFC oznake (NTAG213)](#nfc-oznake-ntag213)
-  - [Korak-po-korak: Izrada vlastitih QR kodova ili NFC oznaka](#korak-po-korak-izrada-vlastitih-qr-kodova-ili-nfc-oznaka)
-    - [Izrada QR koda](#izrada-qr-koda)
-    - [Pisanje na NTAG213 oznaku](#pisanje-na-ntag213-oznaku)
-  - [Primjerne datoteke](#primjerne-datoteke)
-  - [Odabir zone i uspinjače](#odabir-zone-i-uspinjače)
-  - [Korištenje i provjera karata](#korištenje-i-provjera-karata)
-  - [Dodatne tehničke pojedinosti](#dodatne-tehničke-pojedinosti)
-  - [Pravilno korištenje](#pravilno-korištenje)
-  - [Buduće promjene / ažuriranja](#buduće-promjene--ažuriranja)
-  - [Dodatne preporuke](#dodatne-preporuke)
-    - [ZetLoc](#zetloc)
-    - [ZET info](#zet-info)
-      - [GTFS Realtime – Ograničenja](#gtfs-realtime--ograničenja)
-  - [Licenca](#licenca)
-  - [Kontakt / Issues](#kontakt--issues)
-  - [Upozorenje (ponovljeno)](#upozorenje-ponovljeno)
+1. TOC
+{:toc}
+</details>
 
 ---
 
