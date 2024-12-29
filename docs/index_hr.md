@@ -13,7 +13,7 @@ layout: default
 ## Upozorenje (Disclaimer)
 
 > Ja i ovaj projekt **nismo** povezani s društvom Zagrebački električni tramvaj d.o.o. (ZET). Sadržaj u nastavku služi **isključivo u edukativne i informativne svrhe**, te odražava ponašanje sustava prema zapažanjima u trenutku pisanja. **Ne jamčim** da je ova metoda službeno odobrena ili da će trajno funkcionirati. Korištenjem ovih uputa prihvaćate **punu odgovornost** za svoje postupke, uključujući poštivanje ZET-ovih Uvjeta korištenja te propisa o javnom prijevozu.
-> Uvjete korištenja aplikacije možete pronaći [ovdje](https://moj.zet.hr/Account/About).
+> Uvjete korištenja aplikacije možete pronaći [ovdje](https://moj.zet.hr/Account/About){:target="_blank" rel="noopener"}.
 
 ## Sadržaj
 
@@ -59,7 +59,7 @@ Omogućiti korisnicima da unaprijed izrade i nose **vlastiti** QR ili NFC kôd, 
 
 Ovaj vodič objašnjava kako izraditi osobni QR kôd ili praznu NFC oznaku koju aplikacija prepoznaje poput službene naljepnice. Možete je nositi u novčaniku, na privjesku za ključeve ili na vlastitoj NTAG213 naljepnici ili privjesku.
 
-Za službene upute o instalaciji i korištenju aplikacije, pogledajte [službenu stranicu](https://www.zet.hr/cijene-prodaja-i-placanje/aplikacija-mojzet/8098).
+Za službene upute o instalaciji i korištenju aplikacije, pogledajte [službenu stranicu](https://www.zet.hr/cijene-prodaja-i-placanje/aplikacija-mojzet/8098){:target="_blank" rel="noopener"}.
 
 ---
 
@@ -82,13 +82,13 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 
 *Vozila s navedenim garažnim brojevima:*\
 ![Vozila s navedenim garažnim brojevima](images/230529_Moj_ZET_resized_1.jpeg)\
-*Izvor: Grad Zagreb putem [www.zagreb.hr](https://www.zagreb.hr/en/predstavljena-aplikacija-moj-zet-za-digitalnu-kupn/188168)*
+*Izvor: Grad Zagreb putem [www.zagreb.hr](https://www.zagreb.hr/en/predstavljena-aplikacija-moj-zet-za-digitalnu-kupn/188168){:target="_blank" rel="noopener"}*
 
 ### Više o naljepnicama
 
 *Primjer naljepnice u tramvaju:*\
 ![Primjer naljepnice u tramvaju](images/230529_Moj_ZET_resized_4.jpeg)\
-*Izvor: Grad Zagreb putem [www.zagreb.hr](https://www.zagreb.hr/en/predstavljena-aplikacija-moj-zet-za-digitalnu-kupn/188168)*
+*Izvor: Grad Zagreb putem [www.zagreb.hr](https://www.zagreb.hr/en/predstavljena-aplikacija-moj-zet-za-digitalnu-kupn/188168){:target="_blank" rel="noopener"}*
 
 #### QR kodovi
 
@@ -101,7 +101,7 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 - Koriste **NDEF** format na **NTAG213** čipu.
 - NFC čip, iako pomalo skriven na prednjoj strani naljepnice, može se jasno vidjeti ako se promatra sa stražnje strane:\
 ![Primjer NTAG213 čipa na poleđini naljepnice](images/moj-ZET-QR-karta-tramvaj-Zagreb-2.jpeg)\
-*Izvor: Portofon.com putem [www.portofon.com](https://www.portofon.com/savjeti/kako-se-koristi-aplikacija-moj-zet)*
+*Izvor: Portofon.com putem [www.portofon.com](https://www.portofon.com/savjeti/kako-se-koristi-aplikacija-moj-zet){:target="_blank" rel="noopener"}*
 
 ---
 
@@ -110,7 +110,7 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 ### Izrada QR koda
 
 1. **Odaberite metodu izrade QR koda**
-   - Primjer: [Project Nayuki QR Code generator library](https://www.nayuki.io/page/qr-code-generator-library) ili neko drugo rješenje.
+   - Primjer: [Project Nayuki QR Code generator library](https://www.nayuki.io/page/qr-code-generator-library){:target="_blank" rel="noopener"} ili neko drugo rješenje.
 
 2. **Unesite tekst**  
    - Npr. `T22130` (tramvaj #22130) ili `B375` (autobus #375).
@@ -124,12 +124,12 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 ### Pisanje na NTAG213 oznaku
 
 1. **Nabavite praznu NTAG213 NFC oznaku**
-   - Mogu se pronaći online (npr. na [AliExpressu](https://www.aliexpress.com/wholesale?SearchText=ntag213)) po pristupačnim cijenama.
+   - Mogu se pronaći online (npr. na [AliExpressu](https://www.aliexpress.com/wholesale?SearchText=ntag213){:target="_blank" rel="noopener"}) po pristupačnim cijenama.
    - Provjerite podržava li vaš mobitel pisanje NFC-a. iPhonei mogu pisati na NTAG213, no moguće su restrikcije ovisno o verziji iOS-a ili starijim uređajima (prije iPhone 7).
    - Osim naljepnica, postoje i NTAG213 privjesci za ključeve.
 
 2. **Instalirajte aplikaciju za pisanje NFC-a**
-   - Primjer: [NFC Tools](https://www.wakdev.com/en/apps/nfc-tools-android.html) (dostupna na Androidu i iOS-u).
+   - Primjer: [NFC Tools](https://www.wakdev.com/en/apps/nfc-tools-android.html){:target="_blank" rel="noopener"} (dostupna na Androidu i iOS-u).
      - [Android](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc)
      - [iPhone](https://apps.apple.com/hr/app/nfc-tools/id1252962749)
    - Alternativa: [NXP TagWriter](https://play.google.com/store/apps/details?id=com.nxp.nfc.tagwriter) (popularno za Android).
@@ -173,7 +173,7 @@ U aplikaciji **Moj ZET**, prije skeniranja ili očitavanja koda/oznake, možete 
 - **Kontrolori** uglavnom provjeravaju imate li **valjanu (aktivnu) kartu**. Ne uspoređuju garažni broj u aplikaciji s vozilom, jer bi to bilo nepraktično.
   - Karta vrijedi dok pokriva zonu i ima dovoljno vremena u trenutku provjere.
 - **Trenutačna zapažanja** pokazuju da sustav **ne** strogo provjerava slaže li se očitani kôd s pravim brojem vozila, dijelom zbog mogućih problema s ATRON računalima ili izmijenjenih ruta.
-  - Više detalja o ATRON sustavu: [mreza.bug.hr](https://mreza.bug.hr/promo/atron-ov-kontrolni-centar-24236).
+  - Više detalja o ATRON sustavu: [mreza.bug.hr](https://mreza.bug.hr/promo/atron-ov-kontrolni-centar-24236){:target="_blank" rel="noopener"}.
 - **GPS/Lokacija**: Ako je uključena, aplikacija može predložiti zonu temeljem lokacije uređaja, ali uvijek možete sve postaviti ručno.
 
 ---
@@ -205,7 +205,7 @@ Moguće je da ZET:
 - Počne strože provjeravati broj vozila i uspoređivati ga s lokacijom putnika.
 - Blokira uporabu vanjskih (neslužbenih) kodova.
 
-Kao svakodnevni korisnik, pratim ponašanje aplikacije i ažurirat ću ovaj vodič prema potrebi. Ako primijetite da aplikacija počinje tražiti usklađenost garažnog broja s vozilom, molim otvorite [GitHub issue](https://github.com/fscek/moj-zet-app-guide/issues).
+Kao svakodnevni korisnik, pratim ponašanje aplikacije i ažurirat ću ovaj vodič prema potrebi. Ako primijetite da aplikacija počinje tražiti usklađenost garažnog broja s vozilom, molim otvorite [GitHub issue](https://github.com/fscek/moj-zet-app-guide/issues){:target="_blank" rel="noopener"}.
 
 ---
 
@@ -213,16 +213,16 @@ Kao svakodnevni korisnik, pratim ponašanje aplikacije i ažurirat ću ovaj vodi
 
 ### ZetLoc
 
-Ova neovisna web-stranica (anonimnog autora) omogućuje pregled GPS lokacija ZET vozila uživo, koristeći [GTFS Realtime podatke](https://www.zet.hr/odredbe/datoteke-u-gtfs-formatu/669) koje ZET pruža.
+Ova neovisna web-stranica (anonimnog autora) omogućuje pregled GPS lokacija ZET vozila uživo, koristeći [GTFS Realtime podatke](https://www.zet.hr/odredbe/datoteke-u-gtfs-formatu/669){:target="_blank" rel="noopener"} koje ZET pruža.
 Također podržava unos više linija razdvojenih zarezom, npr. `2,6,11`, za istovremeni prikaz više linija.
 
-[**ZetLoc** Web](https://zetloc.quest)
+[**ZetLoc** Web](https://zetloc.quest){:target="_blank" rel="noopener"}
 
 ### ZET info
 
 *ZET info* je poznata aplikacija za Android i iOS, također povezana s GTFS Realtime podatcima ZET-a. Omogućuje pregled stanica, dolazaka i više informacija. Korisna je za one koji se voze javnim prijevozom u Zagrebu.
 
-[**ZET info** Web](https://zet-info.com)
+[**ZET info** Web](https://zet-info.com){:target="_blank" rel="noopener"}
 
 #### GTFS Realtime – Ograničenja
 
@@ -232,14 +232,14 @@ Zbog ranije spomenutih poteškoća s ATRON sustavom, **mnoga** vozila (posebno a
 
 ## Licenca
 
-Ovaj vodič i popratni materijali (koji **nisu** vlasništvo ZET-a) licencirani su pod [MIT licencom](LICENSE). Ta licenca **ne** pokriva ZET-ove logotipe, službene aplikacije ili podatke.
+Ovaj vodič i popratni materijali (koji **nisu** vlasništvo ZET-a) licencirani su pod MIT licencom. Ta licenca **ne** pokriva ZET-ove logotipe, službene aplikacije ili podatke.
 
 ---
 
 ## Kontakt / Issues
 
 - **Upiti o projektu**: Otvorite GitHub issue ili pull request ako pronađete pogrešku ili imate prijedloge.
-- **Službeni ZET upiti**: Za pitanja o pravilima ZET-a posjetite [ZET web-stranicu](https://www.zet.hr/).
+- **Službeni ZET upiti**: Za pitanja o pravilima ZET-a posjetite [ZET web-stranicu](https://www.zet.hr){:target="_blank" rel="noopener"}.
 - **Pravna obavijest**: Ako ZET zatraži uklanjanje ili izmjenu sadržaja koji krši njihove uvjete, uskladit ću se s time bez odgode.
 
 ---

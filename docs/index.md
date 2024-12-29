@@ -57,7 +57,7 @@ Enable people to generate and carry **their own** scannable QR or NFC tag in adv
 
 This guide explains how to create a personal QR code or blank NFC tag that the app recognises the same way it would an official sticker. You can then keep it in your wallet, on your keychain, or on a personally written NTAG213 sticker or an NTAG213 keychain.
 
-For official app installation and usage instructions, see [this guide](https://www.zet.hr/cijene-prodaja-i-placanje/aplikacija-mojzet/8098).
+For official app installation and usage instructions, see [this guide](https://www.zet.hr/cijene-prodaja-i-placanje/aplikacija-mojzet/8098){:target="_blank" rel="noopener"}.
 
 ---
 
@@ -80,13 +80,13 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
 
 *Vehicles bearing the aforementioned garage numbers:*\
 ![Vehicles bearing the aforementioned garage numbers](images/230529_Moj_ZET_resized_1.jpeg)\
-*Source: City of Zagreb via [www.zagreb.hr](https://www.zagreb.hr/en/predstavljena-aplikacija-moj-zet-za-digitalnu-kupn/188168)*
+*Source: City of Zagreb via [www.zagreb.hr](https://www.zagreb.hr/en/predstavljena-aplikacija-moj-zet-za-digitalnu-kupn/188168){:target="_blank" rel="noopener"}*
 
 ### About The Stickers
 
 *Example sticker in a tram:*\
 ![Example sticker in a tram](images/230529_Moj_ZET_resized_4.jpeg)\
-*Source: City of Zagreb via [www.zagreb.hr](https://www.zagreb.hr/en/predstavljena-aplikacija-moj-zet-za-digitalnu-kupn/188168)*
+*Source: City of Zagreb via [www.zagreb.hr](https://www.zagreb.hr/en/predstavljena-aplikacija-moj-zet-za-digitalnu-kupn/188168){:target="_blank" rel="noopener"}*
 
 #### QR Codes
 
@@ -99,7 +99,7 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
 - They use the **NDEF** format on an **NTAG213** chip.
 - The NFC tag, while slightly hidden on the front of the sticker, can be clearly seen when viewing the sticker from the back:\
 ![NTAG213 tag example](images/moj-ZET-QR-karta-tramvaj-Zagreb-2.jpeg)\
-*Source: Portofon.com via [www.portofon.com](https://www.portofon.com/savjeti/kako-se-koristi-aplikacija-moj-zet)*
+*Source: Portofon.com via [www.portofon.com](https://www.portofon.com/savjeti/kako-se-koristi-aplikacija-moj-zet){:target="_blank" rel="noopener"}*
 
 ---
 
@@ -108,7 +108,7 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
 ### Creating a QR Code
 
 1. **Choose a QR Generation Method**
-   - For instance, use [Project Nayuki's QR Code generator library](https://www.nayuki.io/page/qr-code-generator-library) or another online generator.
+   - For instance, use [Project Nayuki's QR Code generator library](https://www.nayuki.io/page/qr-code-generator-library){:target="_blank" rel="noopener"} or another online generator.
 2. **Enter the Text**
    - For example, `T22130` (tram #22130) or `B375` (bus #375).
      - Adjust for your preferred or most-frequent vehicle. It doesn't really matter, as long as the vehicle exists.
@@ -120,11 +120,11 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
 ### Writing to an NTAG213 Tag
 
 1. **Obtain a Blank NTAG213 NFC tag**
-   - These are widely available (e.g., [AliExpress](https://www.aliexpress.com/wholesale?SearchText=ntag213)), often at low cost.
+   - These are widely available (e.g., [AliExpress](https://www.aliexpress.com/wholesale?SearchText=ntag213){:target="_blank" rel="noopener"}), often at low cost.
    - Ensure your phone supports NFC writing. iPhones can write to NTAG213 but may have some limitations depending on iOS version or if an older (I believe, pre-iPhone 7+) device is used.
    - Besides NFC stickers, NTAG213 NFC keychains can be used as well.
 2. **Install an NFC Writing App**
-   - For example, [NFC Tools](https://www.wakdev.com/en/apps/nfc-tools-android.html) (available on both Android & iOS).
+   - For example, [NFC Tools](https://www.wakdev.com/en/apps/nfc-tools-android.html){:target="_blank" rel="noopener"} (available on both Android & iOS).
      - [Android](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc)
      - [iPhone](https://apps.apple.com/hr/app/nfc-tools/id1252962749)
    - Alternatively, [NXP TagWriter](https://play.google.com/store/apps/details?id=com.nxp.nfc.tagwriter) is a popular choice on Android.
@@ -166,7 +166,7 @@ In the **Moj ZET** app, before scanning or detecting a code/tag, you can select:
 - **Ticket inspectors** generally just check for an **active ticket**. They do **not** compare your vehicle number to the actual vehicle, as this would be cumbersome.
   - A ticket is valid as long as it's for the correct zone and with enough remaining time at the moment of inspection.
 - **Current Observations** suggest that the system does **not** strictly verify the scanned code against the actual vehicle number, due to potential syncing/technical issues with onboard ATRON computers or route changes.
-  - More details on the ATRON system can be found [here](https://mreza.bug.hr/promo/atron-ov-kontrolni-centar-24236).
+  - More details on the ATRON system can be found [here](https://mreza.bug.hr/promo/atron-ov-kontrolni-centar-24236){:target="_blank" rel="noopener"}.
 - **GPS/Location**: If enabled, the app may use your phone's location to suggest a zone, but you can always set it manually.
 
 ---
@@ -198,7 +198,7 @@ ZET may:
 - Enforce stricter checks on vehicle data vs. user location.
 - Change the app to reject external codes.
 
-As a daily user of the app, I'll monitor its behaviour and update this guide accordingly. If you notice that the app starts enforcing vehicle-number matching, please open [an issue](https://github.com/fscek/moj-zet-app-guide/issues).
+As a daily user of the app, I'll monitor its behaviour and update this guide accordingly. If you notice that the app starts enforcing vehicle-number matching, please open [an issue](https://github.com/fscek/moj-zet-app-guide/issues){:target="_blank" rel="noopener"}.
 
 ---
 
@@ -206,16 +206,16 @@ As a daily user of the app, I'll monitor its behaviour and update this guide acc
 
 ### ZetLoc
 
-This nice little third-party website from an anonymous author enables you to see real-time GPS ZET vehicle positions using the [GTFS Realtime feed data](https://www.zet.hr/odredbe/datoteke-u-gtfs-formatu/669) ZET provides.\
+This nice little third-party website from an anonymous author enables you to see real-time GPS ZET vehicle positions using the [GTFS Realtime feed data](https://www.zet.hr/odredbe/datoteke-u-gtfs-formatu/669){:target="_blank" rel="noopener"} ZET provides.\
 It also accepts comma-separated value inputs, such as `2,6,11`, in order to see vehicles on multiple lines at once.
 
-[`ZetLoc` Web](https://zetloc.quest)
+[`ZetLoc` Web](https://zetloc.quest){:target="_blank" rel="noopener"}
 
 ### ZET info
 
 *ZET info* is a well-known Android & iOS app, also using the ZET GTFS Realtime feed data. It enables you to see stations, upcoming arrivals and more. A must have when using Zagreb public transport.
 
-[`ZET info` Web](https://zet-info.com)
+[`ZET info` Web](https://zet-info.com){:target="_blank" rel="noopener"}
 
 #### GTFS Realtime Feed Disclaimer
 
@@ -225,14 +225,14 @@ Due to the aforementioned issues with the ZET ATRON system, **a lot** of the bus
 
 ## License
 
-This guide and any accompanying assets (that are **not** ZET's intellectual property) are licensed under the [MIT License](LICENSE). This license does **not** apply to ZET's logos, official apps, or data.
+This guide and any accompanying assets (that are **not** ZET's intellectual property) are licensed under the MIT License. This license does **not** apply to ZET's logos, official apps, or data.
 
 ---
 
 ## Contact / Issues
 
 - **Project Inquiries**: Open a GitHub issue or pull request if you find errors or have improvements.
-- **Official ZET Inquiries**: For questions about ZET policies, see the [ZET website](https://www.zet.hr/).
+- **Official ZET Inquiries**: For questions about ZET policies, see the [ZET website](https://www.zet.hr){:target="_blank" rel="noopener"}.
 - **Legal Notice**: If ZET requests removal or changes to content violating their terms, I will comply promptly.
 
 ---
