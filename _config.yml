@@ -14,6 +14,12 @@ just_the_docs:
 nav:
   - "Home": "README.md"
   - "Croatian Guide": "README_HR.md"
-nav_enabled: true
+    enabled: true
+
+    external_links:
+     - title: GitHub Repository
+       url: https://github.com/fscek/moj-zet-app-guide
+       hide_icon: false # set to true to hide the external link icon - defaults to false
+       opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
 
 color_scheme: dark
