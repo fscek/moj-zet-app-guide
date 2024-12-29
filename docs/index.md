@@ -4,7 +4,7 @@ layout: default
 
 ---
 
-# **English Guide
+# English Guide
 
 > **Looking for the Croatian version?**
 > [Kliknite ovdje za hrvatski jezik](index_hr.md)
