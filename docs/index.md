@@ -15,36 +15,13 @@ title: English Guide
 > Myself and this project are **not** affiliated with Zagrebački električni tramvaj d.o.o. (ZET). The content below is shared solely for **educational and informational purposes** and reflects the system's behaviour as observed at the time of writing. I do **not** guarantee that this method is officially approved or that it will work indefinitely. By using these instructions, you agree to assume all responsibility for your actions, including compliance with ZET's Terms & Conditions and local transport regulations.
 > The app's T&Cs can be found [here](https://moj.zet.hr/Account/About){:target="_blank" rel="noopener"}.
 
-## Table of Contents
-{: .no_toc }
+<details markdown="block">
+  <summary>Table of Contents</summary>
+  {: .text-delta }
 
-- [**Moj ZET** Mobile App – Ticket Purchase Guide (QR & NFC)](#moj-zet-mobile-app--ticket-purchase-guide-qr--nfc)
-  - [Disclaimer](#disclaimer)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-    - [Goal](#goal)
-    - [Scope](#scope)
-  - [Important Disclaimers](#important-disclaimers)
-  - [How It Works](#how-it-works)
-    - [About The Stickers](#about-the-stickers)
-      - [QR Codes](#qr-codes)
-      - [NFC Tags (NTAG213)](#nfc-tags-ntag213)
-  - [Step-by-Step: Generating Your Own QR Codes or NFC Tags](#step-by-step-generating-your-own-qr-codes-or-nfc-tags)
-    - [Creating a QR Code](#creating-a-qr-code)
-    - [Writing to an NTAG213 Tag](#writing-to-an-ntag213-tag)
-  - [Example Files](#example-files)
-  - [Zone and Funicular Selection](#zone-and-funicular-selection)
-  - [Usage & Validation Notes](#usage--validation-notes)
-  - [Additional Technical Details](#additional-technical-details)
-  - [Encouraging Proper Use](#encouraging-proper-use)
-  - [Future Changes / Updates](#future-changes--updates)
-  - [Additional Resources](#additional-resources)
-    - [ZetLoc](#zetloc)
-    - [ZET info](#zet-info)
-      - [GTFS Realtime Feed Disclaimer](#gtfs-realtime-feed-disclaimer)
-  - [License](#license)
-  - [Contact / Issues](#contact--issues)
-  - [Disclaimer (Reiterated)](#disclaimer-reiterated)
+1. TOC
+{:toc}
+</details>
 
 ## Overview
 
