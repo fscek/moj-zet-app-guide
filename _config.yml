@@ -14,3 +14,6 @@ just_the_docs:
 nav:
   - "Home": "README.md"
   - "Croatian Guide": "README_HR.md"
+nav_enabled: true
+
+color_scheme: dark
