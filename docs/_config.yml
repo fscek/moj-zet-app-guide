@@ -5,7 +5,6 @@ description: "a practical guide for advanced use of the Moj ZET App"
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
-  - jekyll-target-blank # Opens  Markdown syntax external links in new tabs
 
 # Just the Docs configuration
 just_the_docs:
