@@ -22,6 +22,12 @@ Written for **educational and informational** purposes only — see the disclaim
 3. **Follow** the steps to create a personal QR code or NFC tag.
 4. **Always buy valid tickets** — Don't wait for inspectors.
 
+## Disclaimers
+
+- **No Guarantee**: This info may become invalid if ZET updates their format.
+- **Risk**: Use at your own risk — check [ZET's Terms & Conditions](https://moj.zet.hr/Account/About).
+- **Legal Notice**: If ZET requests removal or changes, the author will comply promptly.
+
 ## Repository Structure
 
 - **docs/index.md** / **docs/index_hr.md**: Source Markdown for English & Croatian docs (with Jekyll front matter).
@@ -29,11 +35,9 @@ Written for **educational and informational** purposes only — see the disclaim
 - **docs/images/**: Reference screenshots and photos.
 - **LICENSE**: MIT license for this guide (excludes ZET's IP).
 
-## Disclaimers
+## Site Deployment
 
-- **No Guarantee**: This info may become invalid if ZET updates their format.
-- **Risk**: Use at your own risk — check [ZET's Terms & Conditions](https://moj.zet.hr/Account/About).
-- **Legal Notice**: If ZET requests removal or changes, the author will comply promptly.
+This site uses [Just the Docs](https://github.com/just-the-docs/just-the-docs), a documentation theme for Jekyll.
 
 ## License
 
