@@ -1,11 +1,11 @@
 ---
 
 layout: default
-title: Vodič na hrvatskom
+title: Vodič na hrvatskom {: .no_toc }
 
 ---
 
-# **Moj ZET** mobilna aplikacija – Vodič za kupnju karata (QR i NFC)
+# **Moj ZET** mobilna aplikacija – Vodič za kupnju karata (QR i NFC) {: .no_toc }
 
 > **VAŽNO**\
 > Ovaj dokument je stvoren **strojnim prevođenjem** izvornog README dokumenta na engleskom jeziku. Za potpunu točnost i kontekst, molimo provjerite [izvorni README na engleskom](index.md).\
@@ -16,9 +16,9 @@ title: Vodič na hrvatskom
 > Ja i ovaj projekt **nismo** povezani s društvom Zagrebački električni tramvaj d.o.o. (ZET). Sadržaj u nastavku služi **isključivo u edukativne i informativne svrhe**, te odražava ponašanje sustava prema zapažanjima u trenutku pisanja. **Ne jamčim** da je ova metoda službeno odobrena ili da će trajno funkcionirati. Korištenjem ovih uputa prihvaćate **punu odgovornost** za svoje postupke, uključujući poštivanje ZET-ovih Uvjeta korištenja te propisa o javnom prijevozu.
 > Uvjete korištenja aplikacije možete pronaći [ovdje](https://moj.zet.hr/Account/About){:target="_blank" rel="noopener"}.
 
-## Sadržaj
+## Sadržaj {: .no_toc }
 
-- [Vodič na hrvatskom](#vodič-na-hrvatskom)
+- [**Moj ZET** mobilna aplikacija – Vodič za kupnju karata (QR i NFC)](#moj-zet-mobilna-aplikacija--vodič-za-kupnju-karata-qr-i-nfc)
   - [Upozorenje (Disclaimer)](#upozorenje-disclaimer)
   - [Sadržaj](#sadržaj)
   - [Pregled](#pregled)
