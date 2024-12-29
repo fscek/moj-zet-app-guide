@@ -1,4 +1,4 @@
-# Moj ZET Mobile App – QR & NFC "Advance Ticket Purchase" Guide
+# Moj ZET Mobile App – QR/NFC Ticket Purchase Guide
 
 > **Looking for the Croatian version?**
 > [Kliknite ovdje za hrvatski jezik](README_HR.md)
@@ -10,7 +10,7 @@
 
 ## Table of Contents
 
-- [Moj ZET Mobile App – QR & NFC "Advance Ticket Purchase" Guide](#moj-zet-mobile-app--qr--nfc-advance-ticket-purchase-guide)
+- [Moj ZET Mobile App – QR/NFC Ticket Purchase Guide](#moj-zet-mobile-app--qrnfc-ticket-purchase-guide)
   - [Disclaimer](#disclaimer)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
@@ -18,8 +18,9 @@
     - [Scope](#scope)
   - [Important Disclaimers](#important-disclaimers)
   - [How It Works](#how-it-works)
-    - [QR Codes](#qr-codes)
-    - [NFC Tags (NTAG213)](#nfc-tags-ntag213)
+    - [About The Stickers](#about-the-stickers)
+      - [QR Codes](#qr-codes)
+      - [NFC Tags (NTAG213)](#nfc-tags-ntag213)
   - [Step-by-Step: Generating Your Own QR Codes or NFC Tags](#step-by-step-generating-your-own-qr-codes-or-nfc-tags)
     - [Creating a QR Code](#creating-a-qr-code)
     - [Writing to an NTAG213 Tag](#writing-to-an-ntag213-tag)

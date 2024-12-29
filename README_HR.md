@@ -1,4 +1,4 @@
-# Moj ZET mobilna aplikacija – QR i NFC "Vodič za kupnju karata"
+# Moj ZET mobilna aplikacija – Vodič za kupnju karata (QR i NFC)
 
 > **VAŽNO**\
 > Ovaj dokument je stvoren **strojnim prevođenjem** izvornog README dokumenta na engleskom jeziku. Za potpunu točnost i kontekst, molimo provjerite [izvorni README na engleskom](README.md).\
@@ -11,7 +11,7 @@
 
 ## Sadržaj
 
-- [Moj ZET mobilna aplikacija – QR i NFC "Vodič za kupnju karata"](#moj-zet-mobilna-aplikacija--qr-i-nfc-vodič-za-kupnju-karata)
+- [Moj ZET mobilna aplikacija – Vodič za kupnju karata (QR i NFC)](#moj-zet-mobilna-aplikacija--vodič-za-kupnju-karata-qr-i-nfc)
   - [Upozorenje (Disclaimer)](#upozorenje-disclaimer)
   - [Sadržaj](#sadržaj)
   - [Pregled](#pregled)
