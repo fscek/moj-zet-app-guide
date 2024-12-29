@@ -7,7 +7,7 @@ layout: default
 # **Moj ZET** Mobile App – Ticket Purchase Guide (QR & NFC)
 
 > **Looking for the Croatian version?**
-> [Kliknite ovdje za hrvatski jezik](README_HR.md)
+> [Kliknite ovdje za hrvatski jezik](docs/index_hr.md)
 
 ## Disclaimer
 

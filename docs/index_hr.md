@@ -7,7 +7,7 @@ layout: default
 # **Moj ZET** mobilna aplikacija – Vodič za kupnju karata (QR i NFC)
 
 > **VAŽNO**\
-> Ovaj dokument je stvoren **strojnim prevođenjem** izvornog README dokumenta na engleskom jeziku. Za potpunu točnost i kontekst, molimo provjerite [izvorni README na engleskom](README.md).\
+> Ovaj dokument je stvoren **strojnim prevođenjem** izvornog README dokumenta na engleskom jeziku. Za potpunu točnost i kontekst, molimo provjerite [izvorni README na engleskom](docs/index.md).\
 > Oba dokumenta će biti sadržajno usklađeni.
 
 ## Upozorenje (Disclaimer)
