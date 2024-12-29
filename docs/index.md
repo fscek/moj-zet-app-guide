@@ -7,7 +7,7 @@ layout: default
 # **Moj ZET** Mobile App – Ticket Purchase Guide (QR & NFC)
 
 > **Looking for the Croatian version?**
-> [Kliknite ovdje za hrvatski jezik](docs/index_hr.md)
+> [Kliknite ovdje za hrvatski jezik](index_hr.md)
 
 ## Disclaimer
 
@@ -79,13 +79,13 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
 - **Buses**: `B<VEHICLE_GARAGE_NUMBER>` (e.g., `B375` for a bus numbered 375)
 
 *Vehicles bearing the aforementioned garage numbers:*\
-![Vehicles bearing the aforementioned garage numbers](/images/230529_Moj_ZET_resized_1.jpeg)\
+![Vehicles bearing the aforementioned garage numbers](../images/230529_Moj_ZET_resized_1.jpeg)\
 *Source: City of Zagreb via [www.zagreb.hr](https://www.zagreb.hr/en/predstavljena-aplikacija-moj-zet-za-digitalnu-kupn/188168)*
 
 ### About The Stickers
 
 *Example sticker in a tram:*\
-![Example sticker in a tram](/images/230529_Moj_ZET_resized_4.jpeg)\
+![Example sticker in a tram](../images/230529_Moj_ZET_resized_4.jpeg)\
 *Source: City of Zagreb via [www.zagreb.hr](https://www.zagreb.hr/en/predstavljena-aplikacija-moj-zet-za-digitalnu-kupn/188168)*
 
 #### QR Codes
@@ -98,7 +98,7 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
 - Official ZET NFC stickers contain the same `T22130` text (or whichever the garage number is), along with some minor metadata used by the app.
 - They use the **NDEF** format on an **NTAG213** chip.
 - The NFC tag, while slightly hidden on the front of the sticker, can be clearly seen when viewing the sticker from the back:\
-![NTAG213 tag example](/images/moj-ZET-QR-karta-tramvaj-Zagreb-2.jpeg)\
+![NTAG213 tag example](../images/moj-ZET-QR-karta-tramvaj-Zagreb-2.jpeg)\
 *Source: Portofon.com via [www.portofon.com](https://www.portofon.com/savjeti/kako-se-koristi-aplikacija-moj-zet)*
 
 ---
@@ -135,10 +135,10 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
 
 ## Example Files
 
-In the [`examples/`](/examples) folder, you'll find:
+In the [`examples/`](../examples) folder, you'll find:
 
 1. **`qr-example-T9999.png`** – a *sample* QR code encoding the text `T9999`.\
-![Sample QR code encoding text `T9999`](/examples/qr-example-T9999.png)
+![Sample QR code encoding text `T9999`](../examples/qr-example-T9999.png)
    - This is purely for demonstration.
    - **Not** an actual ZET vehicle number (hopefully).
 2. **`ntag213-dump-sample.bin`** – a *sample* NFC NDEF dump containing the text `T9999`, along with the mentioned metadata. (To be added soon.)

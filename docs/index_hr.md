@@ -7,7 +7,7 @@ layout: default
 # **Moj ZET** mobilna aplikacija – Vodič za kupnju karata (QR i NFC)
 
 > **VAŽNO**\
-> Ovaj dokument je stvoren **strojnim prevođenjem** izvornog README dokumenta na engleskom jeziku. Za potpunu točnost i kontekst, molimo provjerite [izvorni README na engleskom](docs/index.md).\
+> Ovaj dokument je stvoren **strojnim prevođenjem** izvornog README dokumenta na engleskom jeziku. Za potpunu točnost i kontekst, molimo provjerite [izvorni README na engleskom](index.md).\
 > Oba dokumenta će biti sadržajno usklađeni.
 
 ## Upozorenje (Disclaimer)
@@ -81,13 +81,13 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 - **Autobusi**: `B<BROJ_GARAŽE_VOZILA>` (npr. `B375` za autobus garažnog broja 375)
 
 *Vozila s navedenim garažnim brojevima:*\
-![Vozila s navedenim garažnim brojevima](/images/230529_Moj_ZET_resized_1.jpeg)\
+![Vozila s navedenim garažnim brojevima](../images/230529_Moj_ZET_resized_1.jpeg)\
 *Izvor: Grad Zagreb putem [www.zagreb.hr](https://www.zagreb.hr/en/predstavljena-aplikacija-moj-zet-za-digitalnu-kupn/188168)*
 
 ### Više o naljepnicama
 
 *Primjer naljepnice u tramvaju:*\
-![Primjer naljepnice u tramvaju](/images/230529_Moj_ZET_resized_4.jpeg)\
+![Primjer naljepnice u tramvaju](../images/230529_Moj_ZET_resized_4.jpeg)\
 *Izvor: Grad Zagreb putem [www.zagreb.hr](https://www.zagreb.hr/en/predstavljena-aplikacija-moj-zet-za-digitalnu-kupn/188168)*
 
 #### QR kodovi
@@ -100,7 +100,7 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 - Službene ZET NFC naljepnice sadrže tekst `T22130` (ili odgovarajući garažni broj), plus moguće dodatne metapodatke.
 - Koriste **NDEF** format na **NTAG213** čipu.
 - NFC čip, iako pomalo skriven na prednjoj strani naljepnice, može se jasno vidjeti ako se promatra sa stražnje strane:\
-![Primjer NTAG213 čipa na poleđini naljepnice](/images/moj-ZET-QR-karta-tramvaj-Zagreb-2.jpeg)\
+![Primjer NTAG213 čipa na poleđini naljepnice](../images/moj-ZET-QR-karta-tramvaj-Zagreb-2.jpeg)\
 *Izvor: Portofon.com putem [www.portofon.com](https://www.portofon.com/savjeti/kako-se-koristi-aplikacija-moj-zet)*
 
 ---
@@ -141,10 +141,10 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 
 ## Primjerne datoteke
 
-U mapi [`examples/`](/examples) nalaze se:
+U mapi [`examples/`](../examples) nalaze se:
 
 1. **`qr-example-T9999.png`** – *primjer* QR koda koji sadrži tekst `T9999`.\
-   ![Primjer QR koda s tekstom `T9999`](/examples/qr-example-T9999.png)
+   ![Primjer QR koda s tekstom `T9999`](../examples/qr-example-T9999.png)
    - Služi samo za demonstraciju.
    - **Nije** pravi ZET garažni broj (bar se nadam).
 
