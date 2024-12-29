@@ -5,3 +5,12 @@ description: "a practical guide for advanced use of the Moj ZET App"
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
+
+# Just the Docs configuration
+just_the_docs:
+  # Collapses child pages under their parent in the sidebar
+  collapse_section_nav: true
+
+nav:
+  - "Home": "README.md"
+  - "Croatian Guide": "README_HR.md"
