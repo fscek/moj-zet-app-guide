@@ -19,8 +19,6 @@ title: Vodič na hrvatskom
 > Ja i ovaj projekt **nismo** povezani s društvom Zagrebački električni tramvaj d.o.o. (ZET). Sadržaj u nastavku služi **isključivo u edukativne i informativne svrhe**, te odražava ponašanje sustava prema zapažanjima u trenutku pisanja. **Ne jamčim** da je ova metoda službeno odobrena ili da će trajno funkcionirati. Korištenjem ovih uputa prihvaćate **punu odgovornost** za svoje postupke, uključujući poštivanje ZET-ovih Uvjeta korištenja te propisa o javnom prijevozu.
 > Uvjete korištenja aplikacije možete pronaći [ovdje](https://moj.zet.hr/Account/About){:target="_blank" rel="noopener"}.
 
----
-
 <details markdown="block">
   <summary>Sadržaj</summary>
   {: .text-delta }
