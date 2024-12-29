@@ -1,10 +1,11 @@
 ---
 
 layout: default
+title: Vodič na hrvatskom
 
 ---
 
-# Vodič na hrvatskom
+# **Moj ZET** mobilna aplikacija – Vodič za kupnju karata (QR i NFC)
 
 > **VAŽNO**\
 > Ovaj dokument je stvoren **strojnim prevođenjem** izvornog README dokumenta na engleskom jeziku. Za potpunu točnost i kontekst, molimo provjerite [izvorni README na engleskom](index.md).\
