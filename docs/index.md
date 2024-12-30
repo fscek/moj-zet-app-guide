@@ -264,7 +264,7 @@ This text record contains the vehicle identifier (`T22130`), which the **Moj ZET
 **Explanation:**  
 This URI record likely points to a Firebase Dynamic Link associated with the **Moj ZET** app. The `https://mojzet.page.link/[SANITISED]` URL may be used for actions like authentication, data synchronization, or providing additional information related to the tram.
 
-> **Known Issues:** Accessing the Firebase link directly without the appropriate routing produces an error:  
+> **Known Issues:** Accessing the Firebase link directly in a browser without the appropriate routing produces an error:  
 > *"Invalid Dynamic Link: Requested URL must be a parsable and complete DynamicLink."*  
 > This suggests that the Firebase Dynamic Links are misconfigured or overly reliant on specific conditions.  
 >
@@ -330,10 +330,6 @@ While creating custom NFC tags can enhance convenience, it's important to be awa
 2. **Exploitation:**  
    An attacker could insert harmful or spoofed data, such as fake vehicle IDs or URLs leading to phishing sites. This could undermine user trust and pose security threats.  
    *Example: Injecting a malicious URL that redirects users to a phishing website when scanned.*
-
-3. **Ticket Fraud:**  
-   Modifications to the primary payload (e.g., `T22130`) could interfere with vehicle identification or validation, potentially leading to unauthorized access or fare evasion.  
-   *Example: Changing the vehicle ID to access zones or services without proper payment.*
 
 ### Recommendations
 

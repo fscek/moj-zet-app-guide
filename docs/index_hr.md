@@ -135,7 +135,7 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
    - **Korištenje oznaka zaštićenih lozinkom ili zaključanih:**  
      - Da biste spriječili neovlašteno mijenjanje, koristite NTAG213 oznake koje podržavaju zaštitu lozinkom.
      - Ako ne namjeravate mijenjati oznaku nakon pisanja, slobodno je zaključajte.
-       > **⚠️ Upozorenje:** Zaključavanje NFC oznake je trajna akcija. Provjerite jesu li svi podaci ispravni prije nastavka.
+       > **⚠️ Upozorenje:** Zaključavanje NFC oznake je trajna akcija. Provjerite jesu li svi podatci ispravni prije nastavka.
 
 ---
 
@@ -149,7 +149,7 @@ U mapi [`examples/`](examples) nalaze se:
    - **Nije** pravi ZET garažni broj (bar se nadam).
 
 > **Napomena:** Primjer NTAG213 dump datoteke je izostavljen zbog sigurnosnih i privatnih razloga. Molim pogledajte detaljnu analizu NFC zapisa [u odjeljku *Dodatne tehničke pojedinosti i nalazi*](#dodatne-tehni%C4%8Dke-pojedinosti-i-nalazi) za više informacija.  
-> **Upozorenje:** Ova datoteka prikazuje samo kako podaci mogu izgledati ili biti strukturirani. Ona **ne** predstavlja službeni QR kod i možda neće biti prepoznata od strane **Moj ZET** aplikacije. Koristite na vlastitu odgovornost i uvijek poštujte ZET-ove Uvjete korištenja.
+> **Upozorenje:** Ova datoteka prikazuje samo kako podatci mogu izgledati ili biti strukturirani. Ona **ne** predstavlja službeni QR kod i možda neće biti prepoznata od strane **Moj ZET** aplikacije. Koristite na vlastitu odgovornost i uvijek poštujte ZET-ove Uvjete korištenja.
 
 ---
 
@@ -255,7 +255,7 @@ Razumijevanje strukture NFC oznaka koje koristi aplikacija **Moj ZET** ključno 
   - **Kodiranje:** UTF-8
   - **Jezik:** Hrvatski (`hr`)
   - **Tekst:** `T22130`
-- **Sirova vrijednost:** `hrT22130`
+- **Neobrađeni podatci:** `hrT22130`
 - **Payload:** `[SANITISED]`
   
 **Objašnjenje:**  
@@ -268,13 +268,13 @@ Ovaj tekstualni zapis sadrži identifikator vozila (`T22130`), koji aplikacija *
 - **Format:** NFC Well Known (`0x01`)
 - **Definirano od strane:** RFC 2141, RFC 3986
 - **Vrijednost:** `https://mojzet.page.link/[SANITISED]`
-- **Sirova vrijednost:** `mojzet.page.link/[SANITISED]`
+- **Neobrađeni podatci:** `mojzet.page.link/[SANITISED]`
 - **Payload:** `[SANITISED]`
   
 **Objašnjenje:**  
 Ovaj URI zapis vjerojatno upućuje na Firebase Dynamic Link povezan s aplikacijom **Moj ZET**. URL `https://mojzet.page.link/[SANITISED]` može se koristiti za akcije poput autentifikacije, sinkronizacije podataka ili pružanja dodatnih informacija vezanih uz tramvaj.
 
-> **Poznate pogreške:** Direktan pristup Firebase linku bez odgovarajućeg usmjeravanja rezultira pogreškom:  
+> **Poznate pogreške:** Direktan pristup Firebase linku putem web-preglednika bez odgovarajućeg usmjeravanja rezultira pogreškom:  
 > *"Invalid Dynamic Link: Requested URL must be a parsable and complete DynamicLink."*  
 > To sugerira da su Firebase Dynamic Links pogrešno konfigurirani ili pretjerano ovisni o specifičnim uvjetima.  
 >
@@ -285,7 +285,7 @@ Ovaj URI zapis vjerojatno upućuje na Firebase Dynamic Link povezan s aplikacijo
 - **Tip:** Android aplikacija (`android.com:pkg`)
 - **Format:** NFC External (`0x04`)
 - **Definirano od strane:** RFC 2141, RFC 3986
-- **Sirova vrijednost:** `com.zetmobile`
+- **Neobrađeni podatci:** `com.zetmobile`
 - **Payload:** `[SANITISED]`
   
 **Objašnjenje:**  
@@ -333,17 +333,13 @@ Dok izrada vlastitih NFC oznaka može povećati praktičnost, važno je biti svj
 
 #### Potencijalni rizici
 
-1. **Tampering (neovlaštena izmjena):**  
-   Budući da su oznake postavljene u vozilima i ostaju nepomične bez redovitih inspekcija, zlonamjerni akteri bi mogli prepisivati oznake s nevažećim podacima, čineći ih beskorisnima ili zavaravajućima.  
+1. **Neovlaštena izmjena:**  
+   Budući da su oznake postavljene u vozilima i ostaju nepomične bez redovitih inspekcija, zlonamjerni akteri bi mogli prepisivati oznake s nevažećim podatcima, čineći ih beskorisnima ili zavaravajućima.  
    *Primjer: Napadač zamijeni `T22130` s `T00000`, uzrokujući pomutnju ili ometanje procesa identifikacije vozila u aplikaciji.*
 
 2. **Eksploatacija:**  
    Napadač bi mogao umetnuti štetne ili lažne podatke, poput lažnih ID-ova vozila ili URL-ova koji vode na phishing stranice. To bi moglo narušiti povjerenje korisnika i predstavljati sigurnosne prijetnje.  
    *Primjer: Umetanje zlonamjernog URL-a koji preusmjerava korisnike na phishing web stranicu pri skeniranju.*
-
-3. **Kvara karata (Ticket Fraud):**  
-   Modifikacije primarnog sadržaja (npr. `T22130`) mogle bi ometati identifikaciju ili validaciju vozila, potencijalno vodeći do neovlaštenog pristupa ili izbjegavanja plaćanja.  
-   *Primjer: Mijenjanje ID-a vozila kako bi se pristupilo zonama ili uslugama bez pravilnog plaćanja.*
 
 ### Preporuke
 
