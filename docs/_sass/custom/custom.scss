@@ -2,21 +2,44 @@
 .text-delta {
     font-size: 1.1rem !important;
   }
-
+  
   @media screen and (min-width: 768px) {
-    .nav-search {
-      /* Decrease default width to, say, 200px or 250px */
+    /* Reduce the search bar width to free up space for the site title */
+    .main-header .search {
       width: 200px !important;
     }
-    .nav-search input[type="search"] {
+  
+    .main-header .search-input-wrap {
       width: 100% !important;
-    }  
-
-  .site-title {
-    line-height: 2;
-    /* Give the title more breathing room on desktop viewports */
-    max-width: calc(100% - 220px) !important;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    }
+  
+    /* Allow the site title to take up more space */
+    .site-title.lh-tight {
+      line-height: 2;
+      /* Allocate more space by reducing max-width accordingly */
+      max-width: calc(100% - 220px) !important;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  
+    /* Optional: Adjust the overall header layout using Flexbox */
+    .site-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .main-header {
+      flex: 1; /* Allow main-header to take up available space */
+    }
+  
+    .site-title.lh-tight {
+      flex: 1; /* Allow the site title to grow */
+    }
+  
+    .search-input-wrap {
+      flex: 0 0 auto; /* Prevent it from stretching */
+    }
   }
-}
+  
