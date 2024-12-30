@@ -124,7 +124,7 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 3. **Kreirajte tekstualni zapis (NDEF)**
    - Zapišite jednostavan `Text Record` (NDEF) zapis s odabranim brojem vozila, npr. `T22130` ili `B375`.
    - **Preporuka:**  
-     Fokusirajte se isključivo na kreiranje **`Text Record`** zapisa za jednostavnost i izbjegavanje nepotrebne složenosti (npr. izostavljanjem Firebase `URI` i `AAR` - više detalja pronađite [ovdje](#firebase-dynamic-links)).
+     Fokusirajte se isključivo na kreiranje **`Text Record`** zapisa za jednostavnost i izbjegavanje nepotrebne složenosti (npr. izostavljanjem Firebase `URI` i `AAR` - više detalja pronađite [u odjeljku *Dodatne tehničke pojedinosti i nalazi*](#dodatne-tehni%C4%8Dke-pojedinosti-i-nalazi)).
 
 4. **Pisanje zapisa na oznaku**
    - Koristite aplikaciju za pisanje NFC-a da zapišete kreirani `Text Record` na vašu NTAG213 oznaku.
@@ -148,7 +148,7 @@ U mapi [`examples/`](examples) nalaze se:
    - Služi samo za demonstraciju.
    - **Nije** pravi ZET garažni broj (bar se nadam).
 
-> **Napomena:** Primjer NTAG213 dump datoteke je izostavljen zbog sigurnosnih i privatnih razloga. Molim pogledajte detaljnu analizu NFC zapisa [dolje](#detaljna-analiza-nfc-zapisa) za više informacija.  
+> **Napomena:** Primjer NTAG213 dump datoteke je izostavljen zbog sigurnosnih i privatnih razloga. Molim pogledajte detaljnu analizu NFC zapisa [u odjeljku *Dodatne tehničke pojedinosti i nalazi*](#dodatne-tehni%C4%8Dke-pojedinosti-i-nalazi) za više informacija.  
 > **Upozorenje:** Ova datoteka prikazuje samo kako podaci mogu izgledati ili biti strukturirani. Ona **ne** predstavlja službeni QR kod i možda neće biti prepoznata od strane **Moj ZET** aplikacije. Koristite na vlastitu odgovornost i uvijek poštujte ZET-ove Uvjete korištenja.
 
 ---

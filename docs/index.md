@@ -116,7 +116,7 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
 3. **Create a Text Record**
    - Write a simple `Text Record` (NDEF) with your chosen vehicle number, e.g., `T22130` or `B375`.
    - **Recommendation:**  
-     Focus solely on creating the **`Text Record`** for simplicity and to avoid unnecessary complexity (e.g., excluding the Firebase `URI` and `AAR` - more details found [here](#firebase-dynamic-links)).
+     Focus solely on creating the **`Text Record`** for simplicity and to avoid unnecessary complexity (e.g., excluding the Firebase `URI` and `AAR` - more details found in the [*Detailed NFC Records Analysis* section below](#additional-technical-details--findings)).
 4. **Write The Record To a Tag**
    - Use the NFC writing app to write the created `Text Record` to your NTAG213 tag.
 5. **Security Best Practices**
@@ -138,7 +138,7 @@ In the [`examples/`](examples) folder, you'll find:
   - This is purely for demonstration.
   - **Not** an actual ZET vehicle number (hopefully).
 
-> **Note:** A NTAG213 sample dump file has been omitted for security and privacy reasons. Please refer to the detailed NFC records analysis [below](#detailed-nfc-records-analysis) for more information.  
+> **Note:** A NTAG213 sample dump file has been omitted for security and privacy reasons. Please refer to the [*Detailed NFC Records Analysis* section below](#additional-technical-details--findings) for more information.  
 > **Disclaimer:** This example file is shared solely to illustrate how the data might look or be structured. It **does not** represent an official ZET code and may not be recognised by **Moj ZET**. Use at your own risk, and always follow ZET's Terms & Conditions.
 
 ---
