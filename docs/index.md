@@ -211,10 +211,12 @@ Understanding the structure of NFC tags used by the **Moj ZET** app is crucial f
 
 ```mermaid
 graph TD;
-    Device[Device (Smartphone)] -->|Approaches| NFC_Tag[NTAG213 NFC Tag]
-    Device -->|Initiates NFC Communication| NFC_Tag
-    NFC_Tag -->|Sends NDEF Message| Device
-    Device -->|Processes Data| App[Moj ZET App]
+    accTitle: Communication between NTAG213 NFC Tag and Device
+    accDescr: Depicts the energy and data exchange between an NTAG213 NFC Tag and an NFC-enabled device
+    NTAG213["NTAG213 NFC Tag"] -->|Energy| NFCDevice["NFC-Enabled Device"];
+    NFCDevice -->|Data| NTAG213;
+    NFCDevice -->|Energy| NTAG213;
+    NTAG213 -->|Data| NFCDevice;
 ```
 
 - **Data Retention:**  
