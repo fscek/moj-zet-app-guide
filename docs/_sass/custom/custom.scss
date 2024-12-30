@@ -4,7 +4,9 @@
   }
 
   .site-title {
-    white-space: normal;
     line-height: 1.4;
+    /* Give the title more breathing room on desktop viewports */
+    max-width: calc(100% - 220px) !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
-  
