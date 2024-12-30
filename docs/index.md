@@ -211,12 +211,12 @@ Understanding the structure of NFC tags used by the **Moj ZET** app is crucial f
 
 ```mermaid
 graph TD;
-    accTitle: Communication between NTAG213 NFC Tag and Device
-    accDescr: Depicts the energy and data exchange between an NTAG213 NFC Tag and an NFC-enabled device
-    NTAG213["NTAG213 NFC Tag"] -->|Energy| NFCDevice["NFC-Enabled Device"];
-    NFCDevice -->|Data| NTAG213;
-    NFCDevice -->|Energy| NTAG213;
-    NTAG213 -->|Data| NFCDevice;
+    accTitle: the diamond pattern
+    accDescr: a graph with four nodes: A points to B and C, while B and C both point to D
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
 
 - **Data Retention:**  
