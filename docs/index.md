@@ -209,6 +209,14 @@ Understanding the structure of NFC tags used by the **Moj ZET** app is crucial f
   - 132 characters in URI (or URL) format
   - 130 characters in plain text format
 
+```mermaid
+graph TD;
+    Device[Device (Smartphone)] -->|Approaches| NFC_Tag[NTAG213 NFC Tag]
+    Device -->|Initiates NFC Communication| NFC_Tag
+    NFC_Tag -->|Sends NDEF Message| Device
+    Device -->|Processes Data| App[Moj ZET App]
+```
+
 - **Data Retention:**  
   Estimated at 10 years, with endurance rated at 100k read/write cycles.
 
