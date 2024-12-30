@@ -1,6 +1,3 @@
 {
-    theme: "neo-dark"
-}
-{
-  layout: "elk"
+    theme: "dark"
 }
