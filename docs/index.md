@@ -125,7 +125,8 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
    - **Use Password-Protected or Locked Tags:**  
      - To prevent tampering, use NTAG213 tags that support password protection.
      - If you do not intend on editing the tag afterwards, feel free to lock it.
-     > **⚠️ Warning:** Locking an NFC tag is a permanent action. Ensure that all information is correct before proceeding.
+       > **⚠️ Warning:**  
+       > Locking an NFC tag is a permanent action. Ensure that all information is correct before proceeding.
 
 ---
 

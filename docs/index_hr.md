@@ -135,7 +135,8 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
    - **Korištenje oznaka zaštićenih lozinkom ili zaključanih:**  
      - Da biste spriječili neovlašteno mijenjanje, koristite NTAG213 oznake koje podržavaju zaštitu lozinkom.
      - Ako ne namjeravate mijenjati oznaku nakon pisanja, slobodno je zaključajte.
-       > **⚠️ Upozorenje:** Zaključavanje NFC oznake je trajna akcija. Provjerite jesu li svi podatci ispravni prije nastavka.
+       > **⚠️ Upozorenje:**  
+       >Zaključavanje NFC oznake je trajna akcija. Provjerite jesu li svi podatci ispravni prije nastavka.
 
 ---
 
