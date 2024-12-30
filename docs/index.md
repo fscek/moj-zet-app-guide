@@ -230,7 +230,6 @@ graph LR;
     classDef Peach stroke-width:1px, stroke-dasharray:none, stroke:#FBB35A, fill:#FFEFDB, color:#8F632D
     style NTAG213 stroke-width:4px,stroke-dasharray: 0
     style NFCDevice stroke-width:4px,stroke-dasharray: 0
-    linkStyle 2 stroke:#000000
 ```
 
 - **Data Retention:**  
