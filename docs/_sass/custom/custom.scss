@@ -3,34 +3,6 @@
     font-size: 1.1rem !important;
   }
 
-  /* TESTING - REMOVE IF FAILED */  
-  @media screen and (min-width: 768px) {
-    /* Adjust the sidebar width to accommodate longer titles */
-    .side-bar {
-      width: 300px !important;       /* Increase sidebar width */
-      min-width: 300px !important;
-      max-width: 300px !important;
-    }
-  
-    /* Adjust the main content margin to match the sidebar width */
-    .main {
-      margin-left: 300px !important; /* Should match .side-bar width */
-    }
-  
-    /* Adjust the site-title to prevent wrapping */
-    .site-title.lh-tight {
-      white-space: nowrap !important;        /* Prevent text from wrapping */
-      overflow: hidden !important;           /* Hide overflowing text */
-      text-overflow: ellipsis !important;    /* Add ellipsis (...) if text is too long */
-      font-size: 1.2rem !important;          /* Increase font size as needed */
-      line-height: 1.2 !important;           /* Adjust line height */
-    }
-  
-    /* Ensure site-header uses Flexbox for proper alignment */
-    .site-header {
-      display: flex !important;
-      align-items: center !important;
-      justify-content: space-between !important;
-    }
-  }
-  
+#back-to-top {
+    font-size: 2rem;       /* Increase the font size */
+  }      
