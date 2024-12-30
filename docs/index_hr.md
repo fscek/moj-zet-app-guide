@@ -243,7 +243,7 @@ Razumijevanje strukture NFC oznaka koje koristi aplikacija **Moj ZET** ključno 
 
 ---
 
-<details>
+<details markdown="block">
   <summary>📄 Detaljna analiza NFC zapisa</summary>
   
 #### Zapis 1: Tekstualni zapis
@@ -290,10 +290,9 @@ Ovaj URI zapis vjerojatno upućuje na Firebase Dynamic Link povezan s aplikacijo
   
 **Objašnjenje:**  
 Ovaj zapis specificira naziv paketa službene **Moj ZET** Android aplikacije (`com.zetmobile`). To osigurava da NFC oznaka pravilno komunicira s namijenjenom aplikacijom (**Moj ZET** u ovom slučaju), sprječavajući neovlaštene aplikacije da pogrešno interpretiraju podatke oznake.
-
 </details>
 
-<details>
+<details markdown="block">
   <summary>📄 Firebase Dynamic Links</summary>
 
 - **Uključeno u NFC oznake:**  
@@ -310,7 +309,7 @@ Ovaj zapis specificira naziv paketa službene **Moj ZET** Android aplikacije (`c
 > **Implikacija:** Ovaj link ne utječe na funkcionalnost validacije karata unutar aplikacije **Moj ZET**. To je dodatni metapodatak koji se može sigurno ignorirati ako nije funkcionalan.
 </details>
 
-<details>
+<details markdown="block">
   <summary>📄 Zapis aplikacije za Android (AAR)</summary>
 
 - **Svrha:**  
@@ -319,7 +318,6 @@ Ovaj zapis specificira naziv paketa službene **Moj ZET** Android aplikacije (`c
 
 - **Zapažanje:**  
   AAR nije potreban da aplikacija pravilno funkcionira u validaciji karata. To je samo sloj pogodnosti.
-
 </details>
 
 ---

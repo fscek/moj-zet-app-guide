@@ -300,7 +300,6 @@ This record specifies the package name of the official **Moj ZET** Android appli
 </details>
 
 <details markdown="block">
-
   <summary>📄 Android Application Record (AAR)</summary>
 
 - **Purpose:**  
