@@ -216,7 +216,7 @@ Understanding the structure of NFC tags used by the **Moj ZET** app is crucial f
 graph LR;
     accTitle: Communication between NTAG213 NFC Tag and Device
     accDescr: Depicts the energy and data exchange between an NTAG213 NFC Tag and an NFC-enabled device
-    NTAGIC["NTAG IC"] --> NTAG213["NTAG213 NFC Tag"]
+    NTAGIC["NTAG IC"] -.-> NTAG213["NTAG213 NFC Tag"]
     NFCDevice["NFC Device"] -- Energy --> NTAG213
     NTAG213 <-- Data --> NFCDevice
 
@@ -228,6 +228,7 @@ graph LR;
      NFCDevice:::Sky
     classDef Sky stroke-width:1px, stroke-dasharray:none, stroke:#374D7C, fill:#E2EBFF, color:#374D7C
     classDef Peach stroke-width:1px, stroke-dasharray:none, stroke:#FBB35A, fill:#FFEFDB, color:#8F632D
+    style NTAGIC stroke-width:2px,stroke-dasharray: 2
     style NTAG213 stroke-width:4px,stroke-dasharray: 0
     style NFCDevice stroke-width:4px,stroke-dasharray: 0
 ```

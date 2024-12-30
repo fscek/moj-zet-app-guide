@@ -223,10 +223,10 @@ Razumijevanje strukture NFC oznaka koje koristi aplikacija **Moj ZET** ključno 
 <small>*Prikazuje razmjenu energije i podataka između NTAG213 NFC oznake i uređaja s NFC podrškom:*</small>
 
 ```mermaid
-graph RL;
+graph LR;
     accTitle: Komunikacija između NTAG213 NFC oznake i uređaja s NFC podrškom
     accDescr: Prikazuje razmjenu energije i podataka između NTAG213 NFC oznake i uređaja s NFC podrškom
-    NTAGIC["NTAG IC"] --> NTAG213["NTAG213 NFC oznaka"]
+    NTAGIC["NTAG IC"] -.-> NTAG213["NTAG213 NFC oznaka"]
     NFCDevice["NFC uređaj"] -- Energija --> NTAG213
     NTAG213 <-- Podatci --> NFCDevice
 
@@ -238,6 +238,7 @@ graph RL;
      NFCDevice:::Sky
     classDef Sky stroke-width:1px, stroke-dasharray:none, stroke:#374D7C, fill:#E2EBFF, color:#374D7C
     classDef Peach stroke-width:1px, stroke-dasharray:none, stroke:#FBB35A, fill:#FFEFDB, color:#8F632D
+    style NTAGIC stroke-width:2px,stroke-dasharray: 2
     style NTAG213 stroke-width:4px,stroke-dasharray: 0
     style NFCDevice stroke-width:4px,stroke-dasharray: 0
 ```
