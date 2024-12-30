@@ -9,14 +9,14 @@ title: Vodič na hrvatskom
 {: .no_toc }
 
 > **VAŽNO**\
-> Ovaj dokument je stvoren **strojnim prevođenjem** izvornog README dokumenta na engleskom jeziku. Za potpunu točnost i kontekst, molimo provjerite [izvorni README na engleskom](index.md).\
+> Ovaj dokument je stvoren **strojnim prevođenjem** izvornog README dokumenta na engleskom jeziku. Za potpunu točnost i kontekst, molim provjerite [izvorni README na engleskom](index.md).\
 > Oba dokumenta će biti sadržajno usklađeni.
 
 ---
 
 ## Upozorenje (Disclaimer)
 
-> Ja i ovaj projekt **nismo** povezani s društvom Zagrebački električni tramvaj d.o.o. (ZET). Sadržaj u nastavku služi **isključivo u edukativne i informativne svrhe**, te odražava ponašanje sustava prema zapažanjima u trenutku pisanja. **Ne jamčim** da je ova metoda službeno odobrena ili da će trajno funkcionirati. Korištenjem ovih uputa prihvaćate **punu odgovornost** za svoje postupke, uključujući poštivanje ZET-ovih Uvjeta korištenja te propisa o javnom prijevozu.
+> Ja i ovaj projekt **nismo** povezani s društvom Zagrebački električni tramvaj d.o.o. (ZET). Sadržaj u nastavku služi **isključivo u edukativne i informativne svrhe** i odražava ponašanje sustava prema zapažanjima u trenutku pisanja. **Ne jamčim** da je ova metoda službeno odobrena ili da će trajno funkcionirati. Korištenjem ovih uputa prihvaćate **punu odgovornost** za svoje postupke, uključujući poštivanje ZET-ovih Uvjeta korištenja te propisa o javnom prijevozu.
 > Uvjete korištenja aplikacije možete pronaći [ovdje](https://moj.zet.hr/Account/About){:target="_blank" rel="noopener"}.
 
 <details markdown="block">
@@ -29,28 +29,32 @@ title: Vodič na hrvatskom
 
 ## Pregled
 
-Uz mobilnu aplikaciju **Moj ZET** omogućena je kupnja karte skeniranjem naljepnica (koje sadržavaju QR kodove i NFC oznake) s označenim brojem vozila (npr. `T22130`).\
-Međutim, putnicima može biti nezgodno fizički skenirati službene naljepnice postavljene unutar vozila ZET-a, osobito radi nezgodne lokacije naljepnica ili u slučaju velikih gužvi.
+Uz mobilnu aplikaciju **Moj ZET** omogućena je kupnja karte skeniranjem službene naljepnice (koja sadrži QR kodove i NFC oznake) s označenim brojem vozila (npr. `T22130`).\
+Međutim, putnicima može biti nezgodno fizički skenirati naljepnice postavljene unutar vozila ZET-a zbog njihovih nezgodnih lokacija - osobito kada je gužva.
 
 ### Cilj
 
-Omogućiti korisnicima da unaprijed izrade i nose **vlastiti** QR ili NFC kôd, kako bi ubrzali kupnju karata.
+Omogućiti ljudima da unaprijed izrade i nose **vlastiti** QR kôd ili NFC oznaku kako bi ubrzali kupnju karata.
 
 ### Opseg
 
-Ovaj vodič objašnjava kako izraditi osobni QR kôd ili praznu NFC oznaku koju aplikacija prepoznaje poput službene naljepnice. Možete je nositi u novčaniku, na privjesku za ključeve ili na vlastitoj NTAG213 naljepnici ili privjesku.
+Ovaj vodič objašnjava kako izraditi osobni QR kôd ili praznu NFC oznaku koju aplikacija prepoznaje na isti način kao i službenu naljepnicu. Možete je nositi u novčaniku, na privjesku za ključeve ili na vlastitoj NTAG213 naljepnici ili privjesku.
 
-Za službene upute o instalaciji i korištenju aplikacije, pogledajte [službenu stranicu](https://www.zet.hr/cijene-prodaja-i-placanje/aplikacija-mojzet/8098){:target="_blank" rel="noopener"}.
+### Ciljana publika
+
+Ovaj vodič namijenjen je redovitim korisnicima ZET-a koji žele pojednostaviti proces kupnje karata koristeći mobilnu aplikaciju **Moj ZET**. Posebno je koristan za učestale putnike koji preferiraju korištenje QR kodova ili NFC oznaka umjesto tradicionalnih metoda kupnje karata. **Tehnički entuzijasti i *geekovi* također su dobrodošli da se dublje upuste u tehničke aspekte QR i NFC funkcionalnosti unutar aplikacije.**
+
+Za službene upute o instalaciji i korištenju aplikacije, pogledajte [vodič na službenoj ZET stranici](https://www.zet.hr/cijene-prodaja-i-placanje/aplikacija-mojzet/8098){:target="_blank" rel="noopener"}.
 
 ---
 
 ## Važne napomene
 
-1. **Bez službene povezanosti**: Ja sam neovisan entuzijast javnog prijevoza bez ikakvog odobrenja ZET-a.
-2. **Edukativna svrha**: Informacije pokazuju kako izraditi osobni QR/NFC kôd isključivo radi praktičnosti.
-3. **Koristite na vlastitu odgovornost**: Ne odgovaram ako ZET obustavi ili promijeni format, ili ako način korištenja prekrši određena pravila.
-4. **Nema jamstva prihvaćanja**: ZET u svakom trenutku može promijeniti svoju politiku ili sustav bez najave. Današnje rješenje sutra možda neće raditi.
-5. **Ne služi za izbjegavanje plaćanja**: Ovaj vodič **nije** namijenjen pomaganju u vožnji bez plaćanja ili kupnji karte tek pri pojavi kontrolora. Vi ste odgovorni kupiti valjanu kartu **prije** ili pri ulasku u vozilo, u skladu s pravilima o javnom prijevozu.
+1. **Bez službene povezanosti:** Ja sam neovisan entuzijast javnog prijevoza bez ikakvog odobrenja ZET-a.
+2. **Edukativna svrha:** Ove informacije pokazuju kako izraditi osobni QR/NFC kôd isključivo radi praktičnosti.
+3. **Koristite na vlastitu odgovornost:** Ne odgovaram ako ZET obustavi ili promijeni format, ili ako vaš način korištenja prekrši bilo koja pravila.
+4. **Nema jamstva prihvaćanja:** ZET može promijeniti svoju politiku ili sustav bez najave. Ono što danas radi, sutra možda neće.
+5. **Ne služi za izbjegavanje plaćanja:** Ovaj vodič **nije** namijenjen pomaganju bilo kome da se vozi besplatno ili kupnji karte tek pri pojavi kontrolora. Odgovorni ste za kupnju valjanih karata **prije** ili pri ulasku u vozilo, u skladu s postojećim propisima prijevoza.
 
 ---
 
@@ -58,8 +62,8 @@ Za službene upute o instalaciji i korištenju aplikacije, pogledajte [službenu
 
 Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniranjem naljepnice s informacijama kao što su:
 
-- **Tramvaji**: `T<BROJ_GARAŽE_VOZILA>` (npr. `T22130` za tramvaj garažnog broja 22130)
-- **Autobusi**: `B<BROJ_GARAŽE_VOZILA>` (npr. `B375` za autobus garažnog broja 375)
+- **Tramvaji:** `T<BROJ_GARAŽE_VOZILA>` (npr. `T22130` za tramvaj garažnog broja 22130)
+- **Autobusi:** `B<BROJ_GARAŽE_VOZILA>` (npr. `B375` za autobus garažnog broja 375)
 
 *Vozila s navedenim garažnim brojevima:*\
 ![Vozila s navedenim garažnim brojevima](images/230529_Moj_ZET_resized_1.jpeg)\
@@ -73,14 +77,14 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 
 #### QR kodovi
 
-- **Službeni** QR kôd unutar vozila obično je jednostavan niz, npr. `T22130` ili `B375`.
-- Kada ga skenirate, aplikacija pretpostavlja da ste upravo u tom vozilu.
+- **Službeni** QR kôd unutar vozila obično je jednostavan tekstni niz (*string*), poput `T22130` ili `B375`.
+- Kada se skenira, aplikacija pretpostavlja da ste upravo u tom vozilu.
 
 #### NFC oznake (NTAG213)
 
-- Službene ZET NFC naljepnice sadrže tekst `T22130` (ili odgovarajući garažni broj), plus moguće dodatne metapodatke.
+- Službene ZET NFC naljepnice sadrže isti tekst `T22130` (ili odgovarajući garažni broj), zajedno s nekim sekundarnim zapisima i metapodatcima koje koristi aplikacija.
 - Koriste **NDEF** format na **NTAG213** čipu.
-- NFC čip, iako pomalo skriven na prednjoj strani naljepnice, može se jasno vidjeti ako se promatra sa stražnje strane:\
+- NFC čip, iako malo skriven na prednjoj strani naljepnice, jasno se vidi kada se naljepnica promatra s poleđine:\
 ![Primjer NTAG213 čipa na poleđini naljepnice](images/moj-ZET-QR-karta-tramvaj-Zagreb-2.jpeg)\
 *Izvor: Portofon.com putem [www.portofon.com](https://www.portofon.com/savjeti/kako-se-koristi-aplikacija-moj-zet){:target="_blank" rel="noopener"}*
 
@@ -91,32 +95,47 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 ### Izrada QR koda
 
 1. **Odaberite metodu izrade QR koda**
-   - Primjer: [Project Nayuki QR Code generator library](https://www.nayuki.io/page/qr-code-generator-library){:target="_blank" rel="noopener"} ili neko drugo rješenje.
+   - Na primjer, koristite [Project Nayuki QR Code generator library](https://www.nayuki.io/page/qr-code-generator-library){:target="_blank" rel="noopener"} ili neki drugi online generator za generiranje QR koda i njegovo spremanje.
 
 2. **Unesite tekst**  
-   - Npr. `T22130` (tramvaj #22130) ili `B375` (autobus #375).
-   - Prilagodite prema vozilu koje najčešće koristite. Nije posebno bitno dokle god to vozilo i zapravo postoji.
+   - Na primjer, `T22130` (tramvaj #22130) ili `B375` (autobus #375).
+     - Prilagodite prema vašem preferiranom ili najčešće korištenom vozilu. Nije posebno bitno dokle god to vozilo i zapravo postoji.
    - **Napomena:** Još nije potvrđeno vrijedi li bilo koji broj ili mora biti unesen u aplikacijsku bazu podataka.
 
 3. **Ispišite**  
-   - Ispišite (print) naljepnicu ili karticu sa svojim QR kôdom i postavite je na često korišteni predmet.
-   - **Ne možete** uvesti lokalno spremljen QR kôd izravno u aplikaciju Moj ZET, stoga je najpraktičnije imati fizički kôd pri ruci (npr. u novčaniku).
+   - Ispišite spremljeni QR kod na malu naljepnicu ili etiketu (na papir za naljepnice ili kao malu laminiranu karticu) s QR kodom i zalijepite ga na često korišteni predmet.
+   - **Ne možete** uvesti lokalno spremljeni QR kod izravno u aplikaciju **Moj ZET**, stoga je najpraktičnije imati fizički kod u novčaniku ili privjesku za ključeve.
+     - Skeniranje koda s drugog zaslona je i dalje opcija, ali može biti nepraktično.
 
 ### Pisanje na NTAG213 oznaku
 
 1. **Nabavite praznu NTAG213 NFC oznaku**
    - Mogu se pronaći online (npr. na [AliExpressu](https://www.aliexpress.com/wholesale?SearchText=ntag213){:target="_blank" rel="noopener"}) po pristupačnim cijenama.
-   - Provjerite podržava li vaš mobitel pisanje NFC-a. iPhonei mogu pisati na NTAG213, no moguće su restrikcije ovisno o verziji iOS-a ili starijim uređajima (prije iPhone 7).
-   - Osim naljepnica, postoje i NTAG213 privjesci za ključeve.
-
+   - Provjerite podržava li vaš telefon pisanje NFC-a. iPhonei mogu pisati na NTAG213, ali mogu imati neka ograničenja ovisno o verziji iOS-a ili starijim uređajima (prije iPhone-a 7+).
+   - Osim NFC naljepnica, mogu se koristiti i NTAG213 NFC privjesci za ključeve.
+     > **❗ Važno:**  
+     Ako želite zalijepiti NFC naljepnicu na metalni predmet ili površinu, pobrinite se da tražite *On-metal*/*Anti-metal* oznake, jer one imaju ferritnu barijeru ili premaz koji omogućuje skeniranje kada se postave na metalne površine.
 2. **Instalirajte aplikaciju za pisanje NFC-a**
-   - Primjer: [NFC Tools](https://www.wakdev.com/en/apps/nfc-tools-android.html){:target="_blank" rel="noopener"} (dostupna na Androidu i iOS-u).
+   - Na primjer, [NFC Tools](https://www.wakdev.com/en/apps/nfc-tools-android.html){:target="_blank" rel="noopener"} (dostupna na Androidu i iOS-u).
      - [Android](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc)
      - [iPhone](https://apps.apple.com/hr/app/nfc-tools/id1252962749)
-   - Alternativa: [NXP TagWriter](https://play.google.com/store/apps/details?id=com.nxp.nfc.tagwriter) (popularno za Android).
+   - Alternativa, [NXP TagWriter](https://play.google.com/store/apps/details?id=com.nxp.nfc.tagwriter) je popularan izbor na Androidu.
 
 3. **Kreirajte tekstualni zapis (NDEF)**
-   - Zapišite sadržaj vašeg garažnog broja, npr. `T22130` ili `B375`.
+   - Zapišite jednostavan `Text Record` (NDEF) zapis s odabranim brojem vozila, npr. `T22130` ili `B375`.
+   - **Preporuka:**  
+     Fokusirajte se isključivo na kreiranje **`Text Record`** zapisa za jednostavnost i izbjegavanje nepotrebne složenosti (npr. izostavljanjem Firebase `URI` i `AAR` - više detalja pronađite [ovdje](#firebase-dynamic-links)).
+
+4. **Pisanje zapisa na oznaku**
+   - Koristite aplikaciju za pisanje NFC-a da zapišete kreirani `Text Record` na vašu NTAG213 oznaku.
+
+5. **Najbolje sigurnosne prakse**
+   - **Provjera integriteta oznake:**  
+     Nakon pisanja, provjerite sadržaj oznake kako biste osigurali točnost.
+   - **Korištenje oznaka zaštićenih lozinkom ili zaključanih:**  
+     - Da biste spriječili neovlašteno mijenjanje, koristite NTAG213 oznake koje podržavaju zaštitu lozinkom.
+     - Ako ne namjeravate mijenjati oznaku nakon pisanja, slobodno je zaključajte.
+       > **⚠️ Upozorenje:** Zaključavanje NFC oznake je trajna akcija. Provjerite jesu li svi podaci ispravni prije nastavka.
 
 ---
 
@@ -129,11 +148,8 @@ U mapi [`examples/`](examples) nalaze se:
    - Služi samo za demonstraciju.
    - **Nije** pravi ZET garažni broj (bar se nadam).
 
-2. **`ntag213-dump-sample.bin`** – *primjer* NFC NDEF zapisa s tekstom `T9999`, uz dodatne metapodatke. (Ovo će biti dodano ubrzo.)
-   - Također samo za demonstraciju.
-   - Možda neće raditi u Moj ZET aplikaciji, ovisno o budućim izmjenama.
-
-> **Upozorenje**: Ove datoteke prikazuju samo kako podaci mogu izgledati. **Nisu** službene ZET oznake/kodovi i aplikacija Moj ZET ih možda neće prepoznati. Koristite ih na vlastitu odgovornost, poštujući ZET-ove Uvjete korištenja.
+> **Napomena:** Primjer NTAG213 dump datoteke je izostavljen zbog sigurnosnih i privatnih razloga. Molim pogledajte detaljnu analizu NFC zapisa [dolje](#detaljna-analiza-nfc-zapisa) za više informacija.  
+> **Upozorenje:** Ova datoteka prikazuje samo kako podaci mogu izgledati ili biti strukturirani. Ona **ne** predstavlja službeni QR kod i možda neće biti prepoznata od strane **Moj ZET** aplikacije. Koristite na vlastitu odgovornost i uvijek poštujte ZET-ove Uvjete korištenja.
 
 ---
 
@@ -141,73 +157,230 @@ U mapi [`examples/`](examples) nalaze se:
 
 U aplikaciji **Moj ZET**, prije skeniranja ili očitavanja koda/oznake, možete odabrati:
 
-- **Zonu 1**, **Zonu 2** ili zagrebačku uspinjaču, uz različito trajanje karata.
-  - Dostupna je i **Karta II zone - 180 minuta** koja vrijedi za obje zone.
-- **Uspinjača** se kupuje na isti način (odaberete "*Uspinjača*" umjesto zone).
-  - Karte za uspinjaču (ponekad navedene kao **Zona 4** u aplikaciji) vrijede samo **u jednom smjeru** (gore ili dolje).
-- GPS je opcionalan – ako je isključen, aplikacija će vas ručno zatražiti da odaberete zonu.
+- **Zonu 1**, **Zonu 2** ili **zagrebačku uspinjaču**, uz različito trajanje karata.
+  - Dostupna je i opcija **Karta II zone - 180 minuta**, koja omogućuje putovanje u obje zone.
+- Karte za **uspinjaču** također se mogu kupiti na isti način (odaberite "*Uspinjača*" umjesto zone).
+  - Karte za uspinjaču (ponekad označene kao **Zona 4** u aplikaciji) vrijede samo **u jednom smjeru** (gore ili dolje).
+- GPS je opcionalan – ako je isključen, aplikacija će vas zatražiti da ručno odaberete zonu.
 
 ---
 
 ## Korištenje i provjera karata
 
 - **Kontrolori** uglavnom provjeravaju imate li **valjanu (aktivnu) kartu**. Ne uspoređuju garažni broj u aplikaciji s vozilom, jer bi to bilo nepraktično.
-  - Karta vrijedi dok pokriva zonu i ima dovoljno vremena u trenutku provjere.
-- **Trenutačna zapažanja** pokazuju da sustav **ne** strogo provjerava slaže li se očitani kôd s pravim brojem vozila, dijelom zbog mogućih problema s ATRON računalima ili izmijenjenih ruta.
-  - Više detalja o ATRON sustavu: [mreza.bug.hr](https://mreza.bug.hr/promo/atron-ov-kontrolni-centar-24236){:target="_blank" rel="noopener"}.
-- **GPS/Lokacija**: Ako je uključena, aplikacija može predložiti zonu temeljem lokacije uređaja, ali uvijek možete sve postaviti ručno.
-
----
-
-## Dodatne tehničke pojedinosti
-
-- **NTAG213** je NFC oznaka tipa 2 s otprilike **144 bajta** memorije za NDEF podatke.
-  - Moguće je pohraniti otprilike 132 znaka u URI (URL) formatu ili 130 znakova običnog teksta.
-  - Procijenjeni vijek trajanja je oko 10 godina, uz oko 100k ciklusa čitanja/pisanja.
-- **NDEF (NFC Data Exchange Format)** je standardni format za pohranu zapisa (tekst, URL itd.).
-- Službene ZET oznake obično sadrže kratki tekst (npr. `T22130`), no moguće je da uključuju dodatne blokove metapodataka.
-- **iPhone vs. Android**:
-  - Moderni iPhone uređaji (iOS 13+) obično mogu pisati na NTAG213 putem specifičnih aplikacija.
-  - Android uređaji uglavnom imaju manje ograničenja i mogu čitati/pisati na većinu NFC oznaka usklađenih s NFC Forumom.
+  - Karta vrijedi sve dok pokriva odgovarajuću zonu i ima dovoljno preostalog vremena u trenutku provjere.
+- **Trenutačna zapažanja** sugeriraju da sustav **ne** provjerava strogo podudaranje skeniranog kôda s pravim brojem vozila, dijelom zbog mogućih problema s ATRON računalima ili izmijenjenih ruta.
+  - Više detalja o ATRON sustavu možete pronaći [ovdje](https://mreza.bug.hr/promo/atron-ov-kontrolni-centar-24236){:target="_blank" rel="noopener"}.
+- **GPS/Lokacija:** Ako je uključena, aplikacija može koristiti lokaciju vašeg telefona kako bi postavila zonu, ali zonu uvijek možete postaviti i ručno.
 
 ---
 
 ## Pravilno korištenje
 
-- **Kupite kartu prije ili odmah po ulasku**: Odgovorni ste za posjedovanje valjane karte. Nemojte čekati kontrolore.
-- **Poštujte pravila prijevoza**: Ova metoda samo olakšava izbjegavanje fizičkog skeniranja službene naljepnice u gužvi ili kada je naljepnica teže dostupna, **ne** služi za izbjegavanje plaćanja.
+- **Kupite kartu prije ili odmah po ulasku:**  
+  Odgovorni ste za posjedovanje valjane karte. Nemojte čekati kontrolore.
+
+- **Poštujte pravila prijevoza:**  
+  Ova metoda je namijenjena kako bi se izbjeglo fizičko skeniranje službene naljepnice u gužvi ili kada je naljepnica izostala/zaklonjena, **ne** služi za izbjegavanje plaćanja.
+
+---
+
+## Dodatni resursi
+
+### ZetLoc
+
+Ova neovisna web-stranica anonimnog autora omogućuje pregled GPS lokacija ZET vozila uživo koristeći [GTFS Realtime feed podatke](https://www.zet.hr/odredbe/datoteke-u-gtfs-formatu/669){:target="_blank" rel="noopener"} koje ZET pruža.
+Također prihvaća unos vrijednosti odvojenih zarezom, poput `2,6,11`, kako bi se istovremeno vidjela vozila na više linija.
+
+[`ZetLoc` Web](https://zetloc.quest){:target="_blank" rel="noopener"}
+
+### ZET info
+
+*ZET info* je poznata Android i iOS aplikacija, također koristeći ZET GTFS Realtime feed podatke. Omogućuje pregled stanica, nadolazećih dolazaka i više. Korisna je za one koji se voze javnim prijevozom u Zagrebu.
+
+[`ZET info` Web](https://zet-info.com){:target="_blank" rel="noopener"}
+
+#### GTFS Realtime Feed – Ograničenja
+
+Zbog ranije spomenutih poteškoća s ATRON sustavom, **mnoga** vozila (posebno autobusi) nemaju aktivno GPS praćenje, pa ove aplikacije ponekad nisu toliko korisne prilikom korištenja autobusa.
+
+---
+
+## Dodatne tehničke pojedinosti i nalazi
+
+Ovaj odjeljak dublje istražuje tehničke aspekte i najnovija zapažanja vezana uz **Moj ZET** NFC oznake i povezanu funkcionalnost aplikacije.
+
+### Struktura i zapisi NFC oznaka
+
+Razumijevanje strukture NFC oznaka koje koristi aplikacija **Moj ZET** ključno je za izradu kompatibilnih oznaka.
+
+- **NTAG213:**  
+  NFC oznaka tipa 2 s otprilike **144 bajta** memorije za NDEF podatke. Omogućuje pohranjivanje:
+  - 132 znakova u URI (URL) formatu
+  - 130 znakova običnog teksta
+  
+- **Čuvanje podataka:**  
+  Procijenjeno na 10 godina, s izdržljivošću od oko 100k ciklusa čitanja/pisanja.
+  
+- **NDEF (NFC Data Exchange Format):**  
+  Standardni format podataka za pohranjivanje zapisa (tekst, URI itd.).
+  
+- **Službene ZET oznake:**  
+  Obično pohranjuju tekstualni zapis (npr. `T22130`), uz uključivanje dodatnih metapodataka koje koristi aplikacija.
+
+### Kompatibilnost između platformi
+
+- **Android uređaji:**  
+  - Većina podržava sve vrste zapisa (`Text Record`, `URI`, i `AAR`).
+  - Obično imaju manje ograničenja i mogu čitati/pisati na većinu NFC oznaka usklađenih s NFC Forumom.
+  
+- **iOS uređaji:**
+  - Moderni iPhone uređaji (iOS 13+) često mogu pisati na NTAG213 oznake putem specifičnih aplikacija.
+  - Primarno koriste `Text Record` i `URI`, dok je `AAR` značajka specifična za Android.
+  
+- **Namjenski RFID (NFC) uređaji:**
+  - Obično nemaju ograničenja u čitanju, pisanju ili mijenjanju NTAG213 oznaka na bilo koji način.
+
+---
+
+<details>
+  <summary>📄 Detaljna analiza NFC zapisa</summary>
+  
+#### Zapis 1: Tekstualni zapis
+
+- **Tip:** Tekst (`T` ili `0x54`)
+- **Format:** NFC Well Known (`0x01`)
+- **Definirano od strane:** RFC 2141, RFC 3986
+- **Vrijednost:**
+  - **Kodiranje:** UTF-8
+  - **Jezik:** Hrvatski (`hr`)
+  - **Tekst:** `T22130`
+- **Sirova vrijednost:** `hrT22130`
+- **Payload:** `[SANITISED]`
+  
+**Objašnjenje:**  
+Ovaj tekstualni zapis sadrži identifikator vozila (`T22130`), koji aplikacija **Moj ZET** koristi za prepoznavanje specifičnog tramvaja. Prefiks `T` označava **tramvaj**, slijedi njegov jedinstveni broj garaže vozila.
+
+#### Zapis 2: URI zapis
+
+- **Tip:** URI (`U` ili `0x55`)
+- **Protokol:** `https://` (`0x04`)
+- **Format:** NFC Well Known (`0x01`)
+- **Definirano od strane:** RFC 2141, RFC 3986
+- **Vrijednost:** `https://mojzet.page.link/[SANITISED]`
+- **Sirova vrijednost:** `mojzet.page.link/[SANITISED]`
+- **Payload:** `[SANITISED]`
+  
+**Objašnjenje:**  
+Ovaj URI zapis vjerojatno upućuje na Firebase Dynamic Link povezan s aplikacijom **Moj ZET**. URL `https://mojzet.page.link/[SANITISED]` može se koristiti za akcije poput autentifikacije, sinkronizacije podataka ili pružanja dodatnih informacija vezanih uz tramvaj.
+
+> **Poznate pogreške:** Direktan pristup Firebase linku bez odgovarajućeg usmjeravanja rezultira pogreškom:  
+> *"Invalid Dynamic Link: Requested URL must be a parsable and complete DynamicLink."*  
+> To sugerira da su Firebase Dynamic Links pogrešno konfigurirani ili pretjerano ovisni o specifičnim uvjetima.  
+>
+> **Implikacija:** Ovaj link ne utječe na funkcionalnost validacije karata unutar aplikacije **Moj ZET**. To je dodatni metapodatak koji se može sigurno ignorirati ako nije funkcionalan.
+
+#### Zapis 3: Zapis aplikacije za Android (AAR)
+
+- **Tip:** Android aplikacija (`android.com:pkg`)
+- **Format:** NFC External (`0x04`)
+- **Definirano od strane:** RFC 2141, RFC 3986
+- **Sirova vrijednost:** `com.zetmobile`
+- **Payload:** `[SANITISED]`
+  
+**Objašnjenje:**  
+Ovaj zapis specificira naziv paketa službene **Moj ZET** Android aplikacije (`com.zetmobile`). To osigurava da NFC oznaka pravilno komunicira s namijenjenom aplikacijom (**Moj ZET** u ovom slučaju), sprječavajući neovlaštene aplikacije da pogrešno interpretiraju podatke oznake.
+
+</details>
+
+<details>
+  <summary>📄 Firebase Dynamic Links</summary>
+
+- **Uključeno u NFC oznake:**  
+  NFC oznake sadrže **URI zapis** koji upućuje na Firebase Dynamic Link (npr. `https://mojzet.page.link/[SANITISED]`).
+
+- **Funkcionalnost:**  
+  Ovi linkovi namijenjeni su akcijama poput autentifikacije, sinkronizacije podataka ili pružanja dodatnih informacija vezanih uz tramvaj.
+
+> **Poznate pogreške:**  
+> Direktan pristup Firebase linku bez odgovarajućeg usmjeravanja rezultira pogreškom:  
+> *"Invalid Dynamic Link: Requested URL must be a parsable and complete DynamicLink."*  
+> To sugerira da su Firebase Dynamic Links pogrešno konfigurirani ili pretjerano ovisni o specifičnim uvjetima.  
+>
+> **Implikacija:** Ovaj link ne utječe na funkcionalnost validacije karata unutar aplikacije **Moj ZET**. To je dodatni metapodatak koji se može sigurno ignorirati ako nije funkcionalan.
+</details>
+
+<details>
+  <summary>📄 Zapis aplikacije za Android (AAR)</summary>
+
+- **Svrha:**  
+  AAR specificira naziv paketa službene **Moj ZET** Android aplikacije (`com.zetmobile`).  
+  To osigurava da NFC oznaka pravilno komunicira s namijenjenom aplikacijom, sprječavajući neovlaštene aplikacije da pogrešno interpretiraju podatke oznake.
+
+- **Zapažanje:**  
+  AAR nije potreban da aplikacija pravilno funkcionira u validaciji karata. To je samo sloj pogodnosti.
+
+</details>
+
+---
+
+## Sigurnosna pitanja
+
+Dok izrada vlastitih NFC oznaka može povećati praktičnost, važno je biti svjestan potencijalnih sigurnosnih rizika povezanih s izmjenjivim NFC oznakama.
+
+### Izmjenjive NFC oznake
+
+- **Priroda:**  
+  Službene **Moj ZET** NFC oznake **su izmjenjive**, što znači da bilo tko s NFC pisačem (uključujući pametni telefon) **može mijenjati ili prepisivati podatke**.
+
+#### Potencijalni rizici
+
+1. **Tampering (neovlaštena izmjena):**  
+   Budući da su oznake postavljene u vozilima i ostaju nepomične bez redovitih inspekcija, zlonamjerni akteri bi mogli prepisivati oznake s nevažećim podacima, čineći ih beskorisnima ili zavaravajućima.  
+   *Primjer: Napadač zamijeni `T22130` s `T00000`, uzrokujući pomutnju ili ometanje procesa identifikacije vozila u aplikaciji.*
+
+2. **Eksploatacija:**  
+   Napadač bi mogao umetnuti štetne ili lažne podatke, poput lažnih ID-ova vozila ili URL-ova koji vode na phishing stranice. To bi moglo narušiti povjerenje korisnika i predstavljati sigurnosne prijetnje.  
+   *Primjer: Umetanje zlonamjernog URL-a koji preusmjerava korisnike na phishing web stranicu pri skeniranju.*
+
+3. **Kvara karata (Ticket Fraud):**  
+   Modifikacije primarnog sadržaja (npr. `T22130`) mogle bi ometati identifikaciju ili validaciju vozila, potencijalno vodeći do neovlaštenog pristupa ili izbjegavanja plaćanja.  
+   *Primjer: Mijenjanje ID-a vozila kako bi se pristupilo zonama ili uslugama bez pravilnog plaćanja.*
+
+### Preporuke
+
+#### Za korisnike
+
+- **Za osobne oznake:**  
+  Prilikom repliciranja NFC oznaka, koristite NTAG213 oznake zaštićene lozinkom kako biste spriječili neovlaštene izmjene.
+
+- **Pratite integritet oznake:**  
+  Redovito provjeravajte svoje prilagođene NFC oznake kako biste osigurali da nisu izmijenjene.
+
+#### Za ZET
+
+1. **Implementirajte zaštitu pisanja:**  
+   Koristite NFC oznake koje podržavaju zaštitu lozinkom ili su zaštićene od pisanja kako biste spriječili neovlaštene izmjene.
+
+2. **Redovite inspekcije oznaka:**  
+   Provedite periodične inspekcije NFC oznaka instaliranih u vozilima kako biste osigurali da nisu izmijenjene.
+
+3. **Poboljšani mehanizmi autentifikacije:**  
+   Uvedite korake autentifikacije u procesu pisanja NFC oznaka kako biste osigurali da samo ovlašteno osoblje može mijenjati podatke oznake.
+
+4. **Obrazujte osoblje i korisnike:**  
+   Pružite obuku osoblju o važnosti sigurnosti NFC oznaka i educirajte korisnike o potencijalnim rizicima od neovlaštenih izmjena.
 
 ---
 
 ## Buduće promjene / ažuriranja
 
-Moguće je da ZET:
+ZET može:
 
-- Počne strože provjeravati broj vozila i uspoređivati ga s lokacijom putnika.
-- Blokira uporabu vanjskih (neslužbenih) kodova.
+- Početi provoditi strože provjere podataka o vozilu u odnosu na korisničku lokaciju.
+- Promijeniti aplikaciju kako bi odbacila vanjske (neslužbene) kodove.
 
-Kao svakodnevni korisnik, pratim ponašanje aplikacije i ažurirat ću ovaj vodič prema potrebi. Ako primijetite da aplikacija počinje tražiti usklađenost garažnog broja s vozilom, molim otvorite [GitHub issue](https://github.com/fscek/moj-zet-app-guide/issues){:target="_blank" rel="noopener"}.
-
----
-
-## Dodatne preporuke
-
-### ZetLoc
-
-Ova neovisna web-stranica (anonimnog autora) omogućuje pregled GPS lokacija ZET vozila uživo, koristeći [GTFS Realtime podatke](https://www.zet.hr/odredbe/datoteke-u-gtfs-formatu/669){:target="_blank" rel="noopener"} koje ZET pruža.
-Također podržava unos više linija razdvojenih zarezom, npr. `2,6,11`, za istovremeni prikaz više linija.
-
-[**ZetLoc** Web](https://zetloc.quest){:target="_blank" rel="noopener"}
-
-### ZET info
-
-*ZET info* je poznata aplikacija za Android i iOS, također povezana s GTFS Realtime podatcima ZET-a. Omogućuje pregled stanica, dolazaka i više informacija. Korisna je za one koji se voze javnim prijevozom u Zagrebu.
-
-[**ZET info** Web](https://zet-info.com){:target="_blank" rel="noopener"}
-
-#### GTFS Realtime – Ograničenja
-
-Zbog ranije spomenutih poteškoća s ATRON sustavom, **mnoga** vozila (posebno autobusi) nemaju aktivno GPS praćenje, što ponekad smanjuje korisnost ovih aplikacija.
+Kao svakodnevni korisnik aplikacije, pratit ću njezino ponašanje i ažurirat ću ovaj vodič prema potrebi. Ako primijetite da aplikacija počinje tražiti usklađenost garažnog broja s vozilom, molim otvorite [GitHub issue](https://github.com/fscek/moj-zet-app-guide/issues){:target="_blank" rel="noopener"}.
 
 ---
 
@@ -219,9 +392,9 @@ Ovaj vodič i popratni materijali (koji **nisu** vlasništvo ZET-a) licencirani 
 
 ## Kontakt / Issues
 
-- **Upiti o projektu**: Otvorite GitHub issue ili pull request ako pronađete pogrešku ili imate prijedloge.
-- **Službeni ZET upiti**: Za pitanja o pravilima ZET-a posjetite [ZET web-stranicu](https://www.zet.hr){:target="_blank" rel="noopener"}.
-- **Pravna obavijest**: Ako ZET zatraži uklanjanje ili izmjenu sadržaja koji krši njihove uvjete, uskladit ću se s time bez odgode.
+- **Upiti o projektu:** Otvorite GitHub issue ili pull request ako pronađete pogrešku ili imate prijedloge.
+- **Službeni ZET upiti:** Za pitanja o pravilima ZET-a posjetite [ZET web-stranicu](https://www.zet.hr){:target="_blank" rel="noopener"}.
+- **Pravna obavijest:** Ako ZET zatraži uklanjanje ili izmjenu sadržaja koji krši njihove uvjete, uskladit ću se s time bez odgode.
 
 ---
 

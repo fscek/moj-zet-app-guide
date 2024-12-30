@@ -116,7 +116,7 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
 3. **Create a Text Record**
    - Write a simple `Text Record` (NDEF) with your chosen vehicle number, e.g., `T22130` or `B375`.
    - **Recommendation:**  
-     Focus solely on creating the **`Text Record`** for simplicity and to avoid unnecessary complexity (e.g., excluding the Firebase URI and AAR - more details found [here](#firebase-dynamic-links)).
+     Focus solely on creating the **`Text Record`** for simplicity and to avoid unnecessary complexity (e.g., excluding the Firebase `URI` and `AAR` - more details found [here](#firebase-dynamic-links)).
 4. **Write The Record To a Tag**
    - Use the NFC writing app to write the created `Text Record` to your NTAG213 tag.
 5. **Security Best Practices**
@@ -264,7 +264,7 @@ This text record contains the vehicle identifier (`T22130`), which the **Moj ZET
 **Explanation:**  
 This URI record likely points to a Firebase Dynamic Link associated with the **Moj ZET** app. The `https://mojzet.page.link/[SANITISED]` URL may be used for actions like authentication, data synchronization, or providing additional information related to the tram.
 
-> **Known Issue:** Accessing the Firebase link directly without the appropriate routing produces an error:  
+> **Known Issues:** Accessing the Firebase link directly without the appropriate routing produces an error:  
 > *"Invalid Dynamic Link: Requested URL must be a parsable and complete DynamicLink."*  
 > This suggests that the Firebase Dynamic Links are misconfigured or overly reliant on specific conditions.  
 >
@@ -292,11 +292,13 @@ This record specifies the package name of the official **Moj ZET** Android appli
 - **Functionality:**  
   These links are intended for actions like authentication, data synchronization, or providing additional information related to the tram.
 
-- **Known Issues:**  
-  Accessing the Firebase link directly without the appropriate routing produces an error:  
-  *"Invalid Dynamic Link: Requested URL must be a parsable and complete DynamicLink."*  
-  This suggests that the Firebase Dynamic Links are misconfigured or overly reliant on specific conditions.  
-  **Implication:** This link does not impact ticket validation functionality within the **Moj ZET** app. It is supplemental metadata that can safely be ignored if non-functional.
+> **Known Issues:**  
+> Accessing the Firebase link directly without the appropriate routing produces an error:  
+> *"Invalid Dynamic Link: Requested URL must be a parsable and complete DynamicLink."*  
+> This suggests that the Firebase Dynamic Links are misconfigured or overly reliant on specific conditions.  
+>
+> **Implication:** This link does not impact ticket validation functionality within the **Moj ZET** app. It is supplemental metadata that can safely be ignored if non-functional.
+
 </details>
 
 <details>
@@ -340,10 +342,10 @@ While creating custom NFC tags can enhance convenience, it's important to be awa
 
 #### For Users
 
-- **For Personal Tags:**  
+1. **Personal Tags:**  
   When replicating NFC tags, use password-protected NTAG213 tags to prevent unauthorized modifications.
 
-- **Monitor Tag Integrity:**  
+2. **Monitor Tag Integrity:**  
   Regularly check your custom NFC tags to ensure they haven't been tampered with.
 
 #### For ZET
