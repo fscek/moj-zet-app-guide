@@ -213,7 +213,7 @@ Zbog ranije spomenutih poteškoća s ATRON sustavom, **mnoga** vozila (posebno a
 
 ## Licenca
 
-Ovaj vodič i popratni materijali (koji **nisu** vlasništvo ZET-a) licencirani su pod MIT licencom. Ta licenca **ne** pokriva ZET-ove logotipe, službene aplikacije ili podatke.
+Ovaj vodič i popratni materijali (koji **nisu** vlasništvo ZET-a) licencirani su pod [MIT Licencom](https://github.com/fscek/moj-zet-app-guide/blob/main/LICENSE){:target="_blank" rel="noopener"}. Ta licenca **ne** pokriva ZET-ove logotipe, službene aplikacije ili podatke.
 
 ---
 

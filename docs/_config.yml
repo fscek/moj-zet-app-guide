@@ -28,7 +28,7 @@ heading_anchors: true
 
 nav_external_links:
  - title: ZET App Guide on GitHub
-   url: https://github.com/fscek/moj-zet-app-guide/
+   url: https://github.com/fscek/moj-zet-app-guide
    hide_icon: false # set to true to hide the external link icon - defaults to false
    opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
 

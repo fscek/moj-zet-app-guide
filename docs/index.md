@@ -204,7 +204,7 @@ Due to the aforementioned issues with the ZET ATRON system, **a lot** of the bus
 
 ## License
 
-This guide and any accompanying assets (that are **not** ZET's intellectual property) are licensed under the MIT License. This license does **not** apply to ZET's logos, official apps, or data.
+This guide and any accompanying assets (that are **not** ZET's intellectual property) are licensed under the [MIT License](https://github.com/fscek/moj-zet-app-guide/blob/main/LICENSE){:target="_blank" rel="noopener"}. This license does **not** apply to ZET's logos, official apps, or data.
 
 ---
 
