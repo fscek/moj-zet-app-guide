@@ -37,7 +37,10 @@ Written for **educational and informational** purposes only — see the disclaim
 
 ## Site Deployment
 
-This site uses [Just the Docs](https://github.com/just-the-docs/just-the-docs), a documentation theme for Jekyll.
+This site uses:
+
+- [Just the Docs](https://just-the-docs.com/), a documentation theme for Jekyll.
+- [Mermaid](https://mermaid.js.org/), a JavaScript based diagramming and charting tool.
 
 ## License
 
