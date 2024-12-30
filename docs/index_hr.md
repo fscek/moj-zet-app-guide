@@ -329,7 +329,7 @@ Dok izrada vlastitih NFC oznaka može povećati praktičnost, važno je biti svj
 ### Izmjenjive NFC oznake
 
 - **Priroda:**  
-  Službene **Moj ZET** NFC oznake **su izmjenjive**, što znači da bilo tko s NFC pisačem (uključujući pametni telefon) **može mijenjati ili prepisivati podatke**.
+  Službene **Moj ZET** NFC oznake **su izmjenjive**, što znači da bilo tko s NFC pisačem (uključujući i pametne telefone) **može mijenjati ili prepisivati podatke**.
 
 #### Potencijalni rizici
 
