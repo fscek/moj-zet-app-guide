@@ -6,6 +6,12 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
 
+# Mermaid plugin support
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "11.4.1"
+
 # Just the Docs configuration
 just_the_docs:
   # Collapses child pages under their parent in the sidebar
