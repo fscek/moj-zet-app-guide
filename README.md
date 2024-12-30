@@ -31,7 +31,7 @@ Written for **educational and informational** purposes only — see the disclaim
 ## Repository Structure
 
 - **docs/index.md** / **docs/index_hr.md**: Source Markdown for English & Croatian docs (with Jekyll front matter).
-- **docs/examples/**: Sample QR codes, NFC tag dumps, etc.
+- **docs/examples/**: Sample QR codes, etc.
 - **docs/images/**: Reference screenshots and photos.
 - **LICENSE**: MIT license for this guide (excludes ZET's IP).
 
