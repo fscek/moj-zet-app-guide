@@ -2,44 +2,35 @@
 .text-delta {
     font-size: 1.1rem !important;
   }
-  
+
+  /* TESTING - REMOVE IF FAILED */  
   @media screen and (min-width: 768px) {
-    /* Reduce the search bar width to free up space for the site title */
-    .main-header .search {
-      width: 200px !important;
+    /* Adjust the sidebar width to accommodate longer titles */
+    .side-bar {
+      width: 300px !important;       /* Increase sidebar width */
+      min-width: 300px !important;
+      max-width: 300px !important;
     }
   
-    .main-header .search-input-wrap {
-      width: 100% !important;
+    /* Adjust the main content margin to match the sidebar width */
+    .main {
+      margin-left: 300px !important; /* Should match .side-bar width */
     }
   
-    /* Allow the site title to take up more space */
-    .site-header .site-title.lh-tight {
-      line-height: 2;
-      /* Allocate more space by reducing max-width accordingly */
-      max-width: calc(100% - 220px) !important;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-  
-    /* Optional: Adjust the overall header layout using Flexbox */
-    .site-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-  
-    .main-header {
-      flex: 1; /* Allow main-header to take up available space */
-    }
-  
+    /* Adjust the site-title to prevent wrapping */
     .site-title.lh-tight {
-      flex: 1; /* Allow the site title to grow */
+      white-space: nowrap !important;        /* Prevent text from wrapping */
+      overflow: hidden !important;           /* Hide overflowing text */
+      text-overflow: ellipsis !important;    /* Add ellipsis (...) if text is too long */
+      font-size: 1.2rem !important;          /* Increase font size as needed */
+      line-height: 1.2 !important;           /* Adjust line height */
     }
   
-    .search-input-wrap {
-      flex: 0 0 auto; /* Prevent it from stretching */
+    /* Ensure site-header uses Flexbox for proper alignment */
+    .site-header {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
     }
   }
   
