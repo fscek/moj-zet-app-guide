@@ -233,7 +233,7 @@ Understanding the structure of NFC tags used by the **Moj ZET** app is crucial f
 
 ---
 
-<details>
+<details markdown="block">
   <summary>📄 Detailed NFC Records Analysis</summary>
   
 #### Record 1: Text Record
@@ -280,10 +280,9 @@ This URI record likely points to a Firebase Dynamic Link associated with the **M
   
 **Explanation:**  
 This record specifies the package name of the official **Moj ZET** Android application (`com.zetmobile`). It ensures that the NFC tag interacts correctly with the intended app (**Moj ZET** in this case), preventing unauthorized applications from misinterpreting the tag data.
-  
 </details>
 
-<details>
+<details markdown="block">
   <summary>📄 Firebase Dynamic Links</summary>
 
 - **Included in NFC Tags:**  
@@ -298,10 +297,10 @@ This record specifies the package name of the official **Moj ZET** Android appli
 > This suggests that the Firebase Dynamic Links are misconfigured or overly reliant on specific conditions.  
 >
 > **Implication:** This link does not impact ticket validation functionality within the **Moj ZET** app. It is supplemental metadata that can safely be ignored if non-functional.
-
 </details>
 
-<details>
+<details markdown="block">
+
   <summary>📄 Android Application Record (AAR)</summary>
 
 - **Purpose:**  
@@ -310,7 +309,6 @@ This record specifies the package name of the official **Moj ZET** Android appli
 
 - **Observation:**  
   The AAR is not required for the app to function properly in validating tickets. It is merely a convenience layer.
-
 </details>
 
 ---
