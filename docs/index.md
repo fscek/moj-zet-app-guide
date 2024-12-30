@@ -1,7 +1,7 @@
 ---
 
 layout: default
-
+title: English Guide
 ---
 
 # **Moj ZET** Mobile App – Ticket Purchase Guide (QR & NFC)

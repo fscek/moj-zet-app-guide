@@ -11,7 +11,7 @@ just_the_docs:
   # Collapses child pages under their parent in the sidebar
   collapse_section_nav: true
   nav:
-    - "English Guide test": "index.md"
+    - "English Guide": "index.md"
     - "Croatian Guide": "index_hr.md"
 nav_enabled: true
 
