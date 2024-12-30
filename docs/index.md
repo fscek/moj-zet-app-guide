@@ -223,7 +223,6 @@ graph RL;
     NFCDevice@{ shape: rounded}
     style NTAG213 stroke-width:4px,stroke-dasharray: 0
     style NFCDevice stroke-width:4px,stroke-dasharray: 0
-
 ```
 
 - **Data Retention:**  
