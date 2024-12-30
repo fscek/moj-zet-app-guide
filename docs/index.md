@@ -210,7 +210,7 @@ Understanding the structure of NFC tags used by the **Moj ZET** app is crucial f
   - 130 characters in plain text format
 
 ```mermaid
-graph TD;
+graph RL;
     accTitle: Communication between NTAG213 NFC Tag and Device
     accDescr: Depicts the energy and data exchange between an NTAG213 NFC Tag and an NFC-enabled device
     NTAGIC["NTAG IC"] --> NTAG213["NTAG213 NFC Tag"]
