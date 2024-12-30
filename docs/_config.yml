@@ -10,7 +10,7 @@ plugins:
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "9.1.3"
+  version: "11.4.1"
 
 # Just the Docs configuration
 just_the_docs:
