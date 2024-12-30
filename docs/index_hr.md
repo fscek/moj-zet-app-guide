@@ -218,7 +218,30 @@ Razumijevanje strukture NFC oznaka koje koristi aplikacija **Moj ZET** ključno 
   NFC oznaka tipa 2 s otprilike **144 bajta** memorije za NDEF podatke. Omogućuje pohranjivanje:
   - 132 znakova u URI (URL) formatu
   - 130 znakova običnog teksta
-  
+
+<small>*Prikazuje razmjenu energije i podataka između NTAG213 NFC oznake i uređaja s NFC podrškom:*</small>
+
+```mermaid
+graph RL;
+    accTitle: Komunikacija između NTAG213 NFC oznake i uređaja s NFC podrškom
+    accDescr: Prikazuje razmjenu energije i podataka između NTAG213 NFC oznake i uređaja s NFC podrškom
+    NTAGIC["NTAG IC"] --> NTAG213["NTAG213 NFC oznaka"]
+    NFCDevice["NFC uređaj"] -- Energija --> NTAG213
+    NTAG213 <-- Podatci --> NFCDevice
+
+    NTAGIC@{ shape: card}
+    NTAG213@{ shape: document}
+    NFCDevice@{ shape: rounded}
+     NTAGIC:::Peach
+     NTAG213:::Peach
+     NFCDevice:::Sky
+    classDef Sky stroke-width:1px, stroke-dasharray:none, stroke:#374D7C, fill:#E2EBFF, color:#374D7C
+    classDef Peach stroke-width:1px, stroke-dasharray:none, stroke:#FBB35A, fill:#FFEFDB, color:#8F632D
+    style NTAG213 stroke-width:4px,stroke-dasharray: 0
+    style NFCDevice stroke-width:4px,stroke-dasharray: 0
+    linkStyle 2 stroke:#000000
+```
+
 - **Čuvanje podataka:**  
   Procijenjeno na 10 godina, s izdržljivošću od oko 100k ciklusa čitanja/pisanja.
   

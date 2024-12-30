@@ -209,20 +209,27 @@ Understanding the structure of NFC tags used by the **Moj ZET** app is crucial f
   - 132 characters in URI (or URL) format
   - 130 characters in plain text format
 
+<small>*Depicts the energy and data exchange between an NTAG213 NFC Tag and an NFC-enabled device:*</small>
+
 ```mermaid
-graph RL;
+graph LR;
     accTitle: Communication between NTAG213 NFC Tag and Device
     accDescr: Depicts the energy and data exchange between an NTAG213 NFC Tag and an NFC-enabled device
     NTAGIC["NTAG IC"] --> NTAG213["NTAG213 NFC Tag"]
-    NTAG213 -- Energy --> NFCDevice["NFC-Enabled Device"]
-    NFCDevice -- Data --> NTAG213
-    NFCDevice -- Energy --> NTAG213
-    NTAG213 -- Data --> NFCDevice
+    NFCDevice["NFC Device"] -- Energy --> NTAG213
+    NTAG213 <-- Data --> NFCDevice
+
     NTAGIC@{ shape: card}
-    NTAG213@{ shape: lean-r}
+    NTAG213@{ shape: document}
     NFCDevice@{ shape: rounded}
+     NTAGIC:::Peach
+     NTAG213:::Peach
+     NFCDevice:::Sky
+    classDef Sky stroke-width:1px, stroke-dasharray:none, stroke:#374D7C, fill:#E2EBFF, color:#374D7C
+    classDef Peach stroke-width:1px, stroke-dasharray:none, stroke:#FBB35A, fill:#FFEFDB, color:#8F632D
     style NTAG213 stroke-width:4px,stroke-dasharray: 0
     style NFCDevice stroke-width:4px,stroke-dasharray: 0
+    linkStyle 2 stroke:#000000
 ```
 
 - **Data Retention:**  
