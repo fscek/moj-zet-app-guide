@@ -210,7 +210,7 @@ Understanding the structure of NFC tags used by the **Moj ZET** app is crucial f
   - 132 characters in URI (or URL) format
   - 130 characters in plain text format
 
-<small>*Depicts the energy and data exchange between an NTAG213 NFC Tag and an NFC-enabled device:*</small>
+<small>*A simple diagram depicting the energy and data exchange between an NTAG213 NFC Tag and an NFC-enabled device:*</small>
 
 ```mermaid
 graph LR;

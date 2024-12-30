@@ -220,7 +220,7 @@ Razumijevanje strukture NFC oznaka koje koristi aplikacija **Moj ZET** ključno 
   - 132 znakova u URI (URL) formatu
   - 130 znakova običnog teksta
 
-<small>*Prikazuje razmjenu energije i podataka između NTAG213 NFC oznake i uređaja s NFC podrškom:*</small>
+<small>*Jednostavan dijagram koji prikazuje razmjenu energije i podataka između NTAG213 NFC oznake i uređaja s NFC podrškom:*</small>
 
 ```mermaid
 graph LR;
