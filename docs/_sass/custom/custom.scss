@@ -14,7 +14,7 @@
     }
   
     /* Allow the site title to take up more space */
-    .site-title.lh-tight {
+    .site-header .site-title.lh-tight {
       line-height: 2;
       /* Allocate more space by reducing max-width accordingly */
       max-width: calc(100% - 220px) !important;
