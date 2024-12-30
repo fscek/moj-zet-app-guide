@@ -3,10 +3,20 @@
     font-size: 1.1rem !important;
   }
 
+  @media screen and (min-width: 768px) {
+    .nav-search {
+      /* Decrease default width to, say, 200px or 250px */
+      width: 200px !important;
+    }
+    .nav-search input[type="search"] {
+      width: 100% !important;
+    }  
+
   .site-title {
-    line-height: 1.4;
+    line-height: 2;
     /* Give the title more breathing room on desktop viewports */
     max-width: calc(100% - 220px) !important;
     white-space: nowrap;
     text-overflow: ellipsis;
   }
+}
