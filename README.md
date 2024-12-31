@@ -35,12 +35,13 @@ Written for **educational and informational** purposes only — see the disclaim
 - **docs/images/**: Reference screenshots and photos.
 - **LICENSE**: MIT license for this guide (excludes ZET's IP).
 
-## Site Deployment
+## How This Site Works
 
 This site uses:
 
-- [Just the Docs](https://just-the-docs.com/), a documentation theme for Jekyll.
-- [Mermaid](https://mermaid.js.org/), a JavaScript based diagramming and charting tool.
+- [Jekyll](https://jekyllrb.com/), a static site generator that converts Markdown files into a complete static website.
+- [Just the Docs](https://just-the-docs.com/), a customizable documentation theme for Jekyll.
+- [Mermaid](https://mermaid.js.org/), a JavaScript-based tool for creating diagrams and charts.
 
 ## License
 
