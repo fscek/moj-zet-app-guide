@@ -13,12 +13,12 @@ Written for **educational and informational** purposes only — see the disclaim
 - **No Official Affiliation**: This is an independent project — _not_ endorsed by ZET (Zagrebački električni tramvaj d.o.o.).
 - **Educational**: Meant to show how QR/NFC works with the **Moj ZET** app, _not_ to encourage fare evasion.
 - **Two Languages**:  
-  - English and Croatian guides are both available on the **[website](https://szch.me/moj-zet-app-guide)**.
+  - English and Croatian guides are both available on the **[website](https://zet.fscek.com)**.
 
 ## Quick Start
 
 1. **Read the disclaimers** — ZET may change their system at any time.
-2. **Visit the [website](https://szch.me/moj-zet-app-guide)** to view the full, formatted documentation.
+2. **Visit the [website](https://zet.fscek.com)** to view the full, formatted documentation.
 3. **Follow** the steps to create a personal QR code or NFC tag.
 4. **Always buy valid tickets** — Don't wait for inspectors.
 
@@ -57,4 +57,4 @@ It **does not** apply to ZET's logos, official apps, or data.
 ---
 
 **Looking for the full guide?**
-> Head to [**the website**](https://szch.me/moj-zet-app-guide) for both English and Croatian versions!
+> Head to [**the website**](https://zet.fscek.com) for both English and Croatian versions!
