@@ -145,13 +145,13 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 Ovaj odjeljak demonstrira korištenje ručno izrađenih QR kodova i NFC oznaka unutar aplikacije.
 
 > **📝 Napomena:**  
-Aplikacija ne provjerava postoji li uistinu broj vozila koji ste upisali u QR kod ili NFC oznaku (primijetite izmišljene garažne brojeve poput `B0`, `T9999`, itd. u gornjem lijevom uglu svakog *screenshota*).\
+Aplikacija ne provjerava postoji li uistinu broj vozila koji ste upisali u QR kod ili NFC oznaku (primijetite izmišljene garažne brojeve poput `T9999`, `B0`, itd. u gornjem lijevom uglu svakog *screenshota*).\
 ![Primjer brojeva vozila u aplikaciji](images/zet-app-vehicle-numbers.png)
 
 ### Vlastiti QR kodovi
 
 *Primjer kako aplikacija prepoznaje ručno izrađene QR kodove.*
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<div style="position: relative; padding-bottom: 60%; height: 0; overflow: hidden;">
   <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
     <source src="videos/custom-qr-scanning-in-app.webm" type="video/webm">
     Vaš preglednik ne podržava ovaj video.
@@ -164,7 +164,7 @@ Aplikacija ne provjerava postoji li uistinu broj vozila koji ste upisali u QR ko
 Ukoliko kupujete kartu putem NFC oznake, dodirnite gumb *ili učitaj NFC oznaku* koji se nalazi u donjoj desnoj strani.
 
 *Primjer kako aplikacija prepoznaje ručno izrađene NFC oznake.*
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<div style="position: relative; padding-bottom: 60%; height: 0; overflow: hidden;">
   <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
     <source src="videos/custom-nfc-scanning-in-app.webm" type="video/webm">
     Vaš preglednik ne podržava ovaj video.
@@ -204,9 +204,9 @@ U aplikaciji **Moj ZET**, prije skeniranja ili očitavanja koda/oznake, možete 
 
 ## Korištenje i provjera karata
 
-- **Kontrolori** uglavnom provjeravaju imate li **valjanu (aktivnu) kartu**. Ne uspoređuju garažni broj u aplikaciji s vozilom, jer bi to bilo nepraktično.
+- **ZET kontrolori** uglavnom provjeravaju imate li **valjanu (aktivnu) kartu**. **Ne uspoređuju** garažni broj u aplikaciji s vozilom, jer bi to bilo nepraktično.
   - Karta vrijedi sve dok pokriva odgovarajuću zonu i ima dovoljno preostalog vremena u trenutku provjere.
-- **Trenutačna zapažanja** sugeriraju da sustav **ne** provjerava strogo podudaranje skeniranog kôda s pravim brojem vozila, dijelom zbog mogućih problema s ATRON računalima ili izmijenjenih ruta.
+- **Trenutačna zapažanja** sugeriraju da kontrolorski sustav **ne** provjerava strogo podudaranje vašeg kôda s pravim brojem vozila, dijelom zbog mogućih problema s ATRON računalima ili izmijenjenih ruta.
   - Više detalja o ATRON sustavu možete pronaći [ovdje](https://mreza.bug.hr/promo/atron-ov-kontrolni-centar-24236){:target="_blank" rel="noopener"}.
 - **GPS/Lokacija:** Ako je uključena, aplikacija može koristiti lokaciju vašeg telefona kako bi postavila zonu, ali zonu uvijek možete postaviti i ručno.
 
