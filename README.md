@@ -36,17 +36,19 @@ Before you begin, ensure you have the following:
 3. **Follow** the steps to create a personal QR code or NFC tag.
 4. **Always buy valid tickets** — Don't wait for inspectors.
 
-## Disclaimers
+## Important Disclaimers
 
-- **No Guarantee**: This info may become invalid if ZET updates their format.
-- **Risk**: Use at your own risk — check [ZET's Terms & Conditions](https://moj.zet.hr/Account/About).
-- **Legal Notice**: If ZET requests removal or changes, the author will comply promptly.
+- **No Official Affiliation:** I am an independent public transport enthusiast with **no** endorsement from ZET (*Zagrebački električni tramvaj d.o.o.*).
+- **Educational:** This information may become invalid if ZET updates their format.
+- **Risk:** Use at your own risk — check [ZET's Terms & Conditions](https://moj.zet.hr/Account/About).
+- **Legal Notice:** If ZET requests removal or changes, the author will comply promptly.
 
 ## Repository Structure
 
 - **docs/index.md** / **docs/index_hr.md**: Source Markdown for English & Croatian docs (with Jekyll front matter).
 - **docs/examples/**: Sample QR codes, etc.
 - **docs/images/**: Reference screenshots and photos.
+- **docs/videos/**: Example usage videos.
 - **LICENSE**: MIT license for this guide (excludes ZET's IP).
 
 ## How This Site Works
@@ -59,7 +61,7 @@ This site uses:
 
 ## License
 
-This project is released under the [MIT License](LICENSE).
+This project is released under the [MIT License](LICENSE).  
 It **does not** apply to ZET's logos, official apps, or data.
 
 ## Contributing / Issues
@@ -70,5 +72,5 @@ It **does not** apply to ZET's logos, official apps, or data.
 
 ---
 
-**Looking for the full guide?**
+**Looking for the full guide?**  
 > Head to [**the website**](https://zet.fscek.com) for both English and Croatian versions!
