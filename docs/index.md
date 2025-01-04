@@ -93,7 +93,7 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
    - For instance, use [Project Nayuki's QR Code generator library](https://www.nayuki.io/page/qr-code-generator-library){:target="_blank" rel="noopener"} or another online generator to generate the QR code and save it.
 2. **Enter the Text**
    - For example, `T22130` (tram #22130) or `B375` (bus #375).
-   - **📝 Note:**  
+     > **📝 Note:**  
      It seems that the app does not validate if the vehicle number actually exists.
 3. **Print**
    - Print the saved QR code image on a small sticker or label (on sticker paper, or as a small laminated card) containing the QR code and attach it to a commonly used personal item.
@@ -115,6 +115,8 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
    - Alternatively, [NXP TagWriter](https://play.google.com/store/apps/details?id=com.nxp.nfc.tagwriter) is a popular choice on Android.
 3. **Create a Text Record**
    - Write a simple `Text Record` (NDEF) with your chosen vehicle number, e.g., `T22130` or `B375`.
+     > **📝 Note:**  
+     It seems that the app does not validate if the vehicle number actually exists.
    - **Recommendation:**  
      Focus solely on creating the **`Text Record`** for simplicity and to avoid unnecessary complexity (e.g., excluding the Firebase `URI` and `AAR` - more details found in the [*Detailed NFC Records Analysis* section below](#additional-technical-details--findings)).
 4. **Write The Record To a Tag**
@@ -127,6 +129,35 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
      - If you do not intend on editing the tag afterwards, feel free to lock it.
        > **⚠️ Warning:**  
        > Locking an NFC tag is a permanent action. Ensure that all information is correct before proceeding.
+
+---
+
+## In-App Usage Examples
+
+This section demonstrates the usage of custom QR codes and NFC tags inside of the app.
+
+> **📝 Note:**  
+The app does not care if the vehicle number you wrote inside of the QR code/NFC tag truly exists (note the ficticious vehicles like `B0`, `T9999`, etc. in the upper left corner of every screenshot).\
+![Vehicle number examples inside of the app](images/zet-app-vehicle-numbers.png)
+
+### Custom QR codes
+
+*This video shows how the app recognises custom QR codes.*\
+<video controls>
+  <source src="videos/custom-qr-scanning-in-app.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
+### Custom NFC tags
+
+> **📝 Note:**  
+If buying a ticket using an NFC tag, just remember to tap the *Or read NFC mark* button in the bottom right.
+
+*This video shows how the app recognises custom NFC tags.*\
+<video controls>
+  <source src="videos/custom-nfc-scanning-in-app.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 
 ---
 

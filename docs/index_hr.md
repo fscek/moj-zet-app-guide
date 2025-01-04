@@ -98,8 +98,8 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
    - Na primjer, koristite [Project Nayuki QR Code generator library](https://www.nayuki.io/page/qr-code-generator-library){:target="_blank" rel="noopener"} ili neki drugi online generator za generiranje QR koda i njegovo spremanje.
 2. **Unesite tekst**  
    - Na primjer, `T22130` (tramvaj #22130) ili `B375` (autobus #375).
-   > **📝 Napomena:**  
-   Čini se da aplikacija ne provjerava postoji li uistinu upisani broj vozila.
+     > **📝 Napomena:**  
+     Čini se da aplikacija ne provjerava postoji li uistinu upisani broj vozila.
 3. **Ispišite**  
    - Ispišite spremljeni QR kod na malu naljepnicu ili etiketu (na papir za naljepnice ili kao malu laminiranu karticu) s QR kodom i zalijepite ga na često korišteni predmet.
    - **Ne možete** uvesti lokalno spremljeni QR kod izravno u aplikaciju **Moj ZET**, stoga je najpraktičnije imati fizički kod u novčaniku ili privjesku za ključeve.
@@ -121,6 +121,8 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 
 3. **Kreirajte tekstualni zapis (NDEF)**
    - Zapišite jednostavan `Text Record` (NDEF) zapis s odabranim brojem vozila, npr. `T22130` ili `B375`.
+     > **📝 Napomena:**  
+     Čini se da aplikacija ne provjerava postoji li uistinu upisani broj vozila.
    - **Preporuka:**  
      Fokusirajte se isključivo na kreiranje **`Text Record`** zapisa za jednostavnost i izbjegavanje nepotrebne složenosti (npr. izostavljanjem Firebase `URI` i `AAR` - više detalja pronađite [u odjeljku *Dodatne tehničke pojedinosti i nalazi*](#dodatne-tehni%C4%8Dke-pojedinosti-i-nalazi)).
 
@@ -135,6 +137,35 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
      - Ako ne namjeravate mijenjati oznaku nakon pisanja, slobodno je zaključajte.
        > **⚠️ Upozorenje:**  
        >Zaključavanje NFC oznake je trajna radnja. Provjerite jesu li svi podatci ispravni prije nastavka.
+
+---
+
+## Primjeri korištenja unutar aplikacije
+
+Ovaj odjeljak demonstrira korištenje ručno izrađenih QR kodova i NFC oznaka unutar aplikacije.
+
+> **📝 Napomena:**  
+Aplikacija ne provjerava postoji li uistinu broj vozila koji ste upisali u QR kod ili NFC oznaku (primijetite izmišljene garažne brojeve poput `B0`, `T9999`, itd. u gornjem lijevom uglu svakog *screenshota*).\
+![Primjer brojeva vozila u aplikaciji](images/zet-app-vehicle-numbers.png)
+
+### Vlastiti QR kodovi
+
+*Primjer kako aplikacija prepoznaje ručno izrađene QR kodove.*\
+<video controls>
+  <source src="videos/custom-qr-scanning-in-app.webm" type="video/webm">
+  Vaš preglednik ne podržava ovaj video.
+</video>
+
+### Vlastite NFC oznake
+
+> **📝 Napomena:**  
+Ukoliko kupujete kartu putem NFC oznake, dodirnite gumb *ili učitaj NFC oznaku* koji se nalazi u donjoj desnoj strani.
+
+*Primjer kako aplikacija prepoznaje ručno izrađene NFC oznake.*\
+<video controls>
+  <source src="videos/custom-nfc-scanning-in-app.webm" type="video/webm">
+  Vaš preglednik ne podržava ovaj video.
+</video>
 
 ---
 
