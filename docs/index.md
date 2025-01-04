@@ -11,7 +11,7 @@ title: English Guide
 
 ## Disclaimer
 
-> Myself and this project are **not** affiliated with Zagrebački električni tramvaj d.o.o. (ZET). The content below is shared solely for **educational and informational purposes** and reflects the system's behaviour as observed at the time of writing. I do **not** guarantee that this method is officially approved or that it will work indefinitely. By using these instructions, you agree to assume all responsibility for your actions, including compliance with ZET's Terms & Conditions and local transport regulations.
+> **Neither I nor this project** is affiliated with Zagrebački električni tramvaj d.o.o. (ZET). The content below is shared solely for **educational and informational purposes** and reflects the system's behaviour as observed at the time of writing. I do **not** guarantee that this method is officially approved or that it will work indefinitely. By using these instructions, you agree to assume all responsibility for your actions, including compliance with ZET's Terms & Conditions and local transport regulations.
 > The app's T&Cs can be found [here](https://moj.zet.hr/Account/About){:target="_blank" rel="noopener"}.
 
 <details markdown="block">
@@ -37,7 +37,7 @@ This guide explains how to create a personal QR code or blank NFC tag that the a
 
 ### Target Audience
 
-This guide is intended for regular users of Zagreb's public transport system who wish to streamline their ticket purchasing process using the **Moj ZET** mobile app. It is particularly useful for frequent commuters who prefer using QR codes or NFC tags over traditional ticket methods. **Tech enthusiasts and geeks are also welcome to delve deeper into the technical aspects of QR and NFC functionalities within the app.**
+This guide is intended for regular users of Zagreb's public transport system who wish to streamline their ticket purchasing process using the **Moj ZET** mobile app. It is particularly useful for frequent commuters who prefer using QR codes or NFC tags over traditional ticket methods. **Tech enthusiasts and transport geeks are also welcome to delve deeper into the technical aspects of QR and NFC functionalities within the app.**
 
 For official app installation and usage instructions, see [this guide](https://www.zet.hr/cijene-prodaja-i-placanje/aplikacija-mojzet/8098){:target="_blank" rel="noopener"}.
 
@@ -313,7 +313,7 @@ graph LR;
 - **Payload:** `[SANITISED]`
   
 **Explanation:**  
-This text record contains the vehicle identifier (`T22130`), which the **Moj ZET** app uses to recognize the specific tram. The prefix `T` denotes a **tram**, followed by its unique vehicle garage number.
+This text record contains the vehicle identifier (`T22130`), which the **Moj ZET** app uses to recognise the specific tram. The prefix `T` denotes a **tram**, followed by its unique vehicle garage number.
   
 #### Record 2: URI Record
 
