@@ -11,7 +11,7 @@ title: English Guide
 
 ## Disclaimer
 
-> **Neither I nor this project** is affiliated with Zagrebački električni tramvaj d.o.o. (ZET). The content below is shared solely for **educational and informational purposes** and reflects the system's behaviour as observed at the time of writing. I do **not** guarantee that this method is officially approved or that it will work indefinitely. By using these instructions, you agree to assume all responsibility for your actions, including compliance with ZET's Terms & Conditions and local transport regulations.
+> **Neither I nor this project** is affiliated with *Zagrebački električni tramvaj d.o.o.* (ZET). The content below is shared solely for **educational and informational purposes** and reflects the system's behaviour as observed at the time of writing. I do **not** guarantee that this method is officially approved or that it will work indefinitely. By using these instructions, you agree to assume all responsibility for your actions, including compliance with ZET's Terms & Conditions and local transport regulations.
 > The app's T&Cs can be found [here](https://moj.zet.hr/Account/About){:target="_blank" rel="noopener"}.
 
 <details markdown="block">
@@ -29,7 +29,7 @@ However, passengers may find it inconvenient to physically scan the stickers pla
 
 ### Goal
 
-Enable people to generate and carry **their own** scannable QR or NFC tag in advance to speed up ticket purchasing.
+Enable people to generate and carry **their own** scannable QR or NFC tag in advance to speed up ticket purchasing. It will also help you better understand how the app works and the way it interacts with the codes and tags.
 
 ### Scope
 
@@ -299,7 +299,7 @@ graph LR;
 
 <details markdown="block">
   <summary>📄 ZET NFC Record Analysis</summary>
-  
+
 #### Record 1: Text Record
 
 - **Type:** Text (`T` or `0x54`)
@@ -311,10 +311,10 @@ graph LR;
   - **Text:** `T22130`
 - **Raw Value:** `hrT22130`
 - **Payload:** `[SANITISED]`
-  
+
 **Explanation:**  
 This text record contains the vehicle identifier (`T22130`), which the **Moj ZET** app uses to recognise the specific tram. The prefix `T` denotes a **tram**, followed by its unique vehicle garage number.
-  
+
 #### Record 2: URI Record
 
 - **Type:** URI (`U` or `0x55`)
@@ -324,7 +324,7 @@ This text record contains the vehicle identifier (`T22130`), which the **Moj ZET
 - **Value:** `https://mojzet.page.link/[SANITISED]`
 - **Raw Value:** `mojzet.page.link/[SANITISED]`
 - **Payload:** `[SANITISED]`
-  
+
 **Explanation:**  
 This URI record likely points to a Firebase Dynamic Link associated with the **Moj ZET** app. The `https://mojzet.page.link/[SANITISED]` URL may be used for actions like authentication, data synchronization, or providing additional information related to the tram.
 
@@ -341,7 +341,7 @@ This URI record likely points to a Firebase Dynamic Link associated with the **M
 - **Defined by:** RFC 2141, RFC 3986
 - **Raw Value:** `com.zetmobile`
 - **Payload:** `[SANITISED]`
-  
+
 **Explanation:**  
 This record specifies the package name of the official **Moj ZET** Android application (`com.zetmobile`). It ensures that the NFC tag interacts correctly with the intended app (**Moj ZET** in this case), preventing unauthorized applications from misinterpreting the tag data.
 </details>
@@ -382,14 +382,13 @@ While creating custom NFC tags can enhance convenience, it's important to be awa
 
 ### Writable NFC Tags
 
-- **Nature:**  
-  The official **Moj ZET** NFC tags **are writable**, meaning anyone with an NFC writer (including a smartphone) **can modify or overwrite the data**.
+- The official **Moj ZET** NFC tags **are writable**, meaning anyone with an NFC writer (including a smartphone) **can modify or overwrite the data**.
 
 #### Potential Risks
 
 1. **Tampering:**  
    Since the tags are installed in vehicles and remain static without regular inspection, malicious actors could rewrite the tags with invalid data, rendering them useless or misleading.  
-   *Example: An attacker replaces `T22130` with `T00000`, causing confusion or disrupting the app's vehicle identification process.*
+   *Example: An attacker replaces `T22130` with a different value, disrupting the app's vehicle identification process.*
 
 2. **Exploitation:**  
    An attacker could insert harmful or spoofed data, such as fake vehicle IDs or URLs leading to phishing sites. This could undermine user trust and pose security threats.  

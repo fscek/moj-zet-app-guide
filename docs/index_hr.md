@@ -16,7 +16,7 @@ title: Vodič na hrvatskom
 
 ## Upozorenje (Disclaimer)
 
-> Ja i ovaj projekt **nismo** povezani s društvom Zagrebački električni tramvaj d.o.o. (ZET). Sadržaj u nastavku služi **isključivo u edukativne i informativne svrhe** i odražava ponašanje sustava prema zapažanjima u trenutku pisanja. **Ne jamčim** da je ova metoda službeno odobrena ili da će trajno funkcionirati. Korištenjem ovih uputa prihvaćate **punu odgovornost** za svoje postupke, uključujući poštivanje ZET-ovih Uvjeta korištenja te propisa o javnom prijevozu.
+> Ja i ovaj projekt **nismo** povezani s društvom *Zagrebački električni tramvaj d.o.o.* (ZET). Sadržaj u nastavku služi **isključivo u edukativne i informativne svrhe** i odražava ponašanje sustava prema zapažanjima u trenutku pisanja. **Ne jamčim** da je ova metoda službeno odobrena ili da će trajno funkcionirati. Korištenjem ovih uputa prihvaćate **punu odgovornost** za svoje postupke, uključujući poštivanje ZET-ovih Uvjeta korištenja te propisa o javnom prijevozu.
 > Uvjete korištenja aplikacije možete pronaći [ovdje](https://moj.zet.hr/Account/About){:target="_blank" rel="noopener"}.
 
 <details markdown="block">
@@ -34,7 +34,7 @@ Međutim, putnicima može biti nezgodno fizički skenirati naljepnice postavljen
 
 ### Cilj
 
-Omogućiti ljudima da unaprijed izrade i nose **vlastiti** QR kôd ili NFC oznaku kako bi ubrzali kupnju karata.
+Omogućiti ljudima da unaprijed izrade i nose **vlastiti** QR kôd ili NFC oznaku kako bi ubrzali kupnju karata. Također će vam pomoći i da bolje razumijete kako aplikacija funkcionira i na koji način komunicira s kodovima i oznakama.
 
 ### Opseg
 
@@ -307,7 +307,7 @@ graph LR;
 
 <details markdown="block">
   <summary>📄 Analiza ZET NFC zapisa</summary>
-  
+
 #### Zapis 1: Tekstualni zapis
 
 - **Tip:** Tekst (`T` ili `0x54`)
@@ -319,7 +319,7 @@ graph LR;
   - **Tekst:** `T22130`
 - **Neobrađeni podatci:** `hrT22130`
 - **Payload:** `[SANITISED]`
-  
+
 **Objašnjenje:**  
 Ovaj tekstualni zapis sadrži identifikator vozila (`T22130`), koji aplikacija **Moj ZET** koristi za prepoznavanje specifičnog tramvaja. Prefiks `T` označava **tramvaj**, slijedi njegov jedinstveni broj garaže vozila.
 
@@ -332,7 +332,7 @@ Ovaj tekstualni zapis sadrži identifikator vozila (`T22130`), koji aplikacija *
 - **Vrijednost:** `https://mojzet.page.link/[SANITISED]`
 - **Neobrađeni podatci:** `mojzet.page.link/[SANITISED]`
 - **Payload:** `[SANITISED]`
-  
+
 **Objašnjenje:**  
 Ovaj URI zapis vjerojatno upućuje na Firebase Dynamic Link povezan s aplikacijom **Moj ZET**. URL `https://mojzet.page.link/[SANITISED]` može se koristiti za akcije poput autentifikacije, sinkronizacije podataka ili pružanja dodatnih informacija vezanih uz tramvaj.
 
@@ -349,7 +349,7 @@ Ovaj URI zapis vjerojatno upućuje na Firebase Dynamic Link povezan s aplikacijo
 - **Definirano od strane:** RFC 2141, RFC 3986
 - **Neobrađeni podatci:** `com.zetmobile`
 - **Payload:** `[SANITISED]`
-  
+
 **Objašnjenje:**  
 Ovaj zapis specificira naziv paketa službene **Moj ZET** Android aplikacije (`com.zetmobile`). To osigurava da NFC oznaka pravilno komunicira s namijenjenom aplikacijom (**Moj ZET** u ovom slučaju), sprječavajući neovlaštene aplikacije da pogrešno interpretiraju podatke oznake.
 </details>
@@ -390,14 +390,13 @@ Dok izrada vlastitih NFC oznaka može povećati praktičnost, važno je biti svj
 
 ### Izmjenjive NFC oznake
 
-- **Priroda:**  
-  Službene **Moj ZET** NFC oznake **su izmjenjive**, što znači da bilo tko s NFC pisačem (uključujući i pametne telefone) **može mijenjati ili prepisivati podatke**.
+- Službene **Moj ZET** NFC oznake **su izmjenjive**, što znači da bilo tko s NFC pisačem (uključujući i pametne telefone) **može mijenjati ili prepisivati podatke**.
 
 #### Potencijalni rizici
 
 1. **Neovlaštena izmjena:**  
    Budući da su oznake postavljene u vozilima i ostaju nepomične bez redovitih inspekcija, zlonamjerni akteri bi mogli prepisivati oznake s nevažećim podatcima, čineći ih beskorisnima ili zavaravajućima.  
-   *Primjer: Napadač zamijeni `T22130` s `T00000`, uzrokujući pomutnju ili ometanje procesa identifikacije vozila u aplikaciji.*
+   *Primjer: Napadač zamijeni `T22130` s drugom vrijednosti, uzrokujući ometanje procesa identifikacije vozila u aplikaciji.*
 
 2. **Eksploatacija:**  
    Napadač bi mogao umetnuti štetne ili lažne podatke, poput lažnih ID-ova vozila ili URL-ova koji vode na phishing stranice. To bi moglo narušiti povjerenje korisnika i predstavljati sigurnosne prijetnje.  
@@ -407,11 +406,11 @@ Dok izrada vlastitih NFC oznaka može povećati praktičnost, važno je biti svj
 
 #### Za korisnike
 
-- **Za osobne oznake:**  
+1. **Za osobne oznake:**  
   Prilikom repliciranja NFC oznaka, koristite NTAG213 oznake zaštićene lozinkom kako biste spriječili neovlaštene izmjene.
 
-- **Pratite integritet oznake:**  
-  Redovito provjeravajte svoje prilagođene NFC oznake kako biste osigurali da nisu izmijenjene.
+2. **Pratite integritet oznake:**  
+  Redovito provjeravajte svoje NFC oznake kako biste osigurali da nisu izmijenjene.
 
 #### Za ZET
 
