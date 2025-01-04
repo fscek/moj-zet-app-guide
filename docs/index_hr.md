@@ -96,12 +96,10 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 
 1. **Odaberite metodu izrade QR koda**
    - Na primjer, koristite [Project Nayuki QR Code generator library](https://www.nayuki.io/page/qr-code-generator-library){:target="_blank" rel="noopener"} ili neki drugi online generator za generiranje QR koda i njegovo spremanje.
-
 2. **Unesite tekst**  
    - Na primjer, `T22130` (tramvaj #22130) ili `B375` (autobus #375).
-     - Prilagodite prema vašem preferiranom ili najčešće korištenom vozilu. Nije posebno bitno dokle god to vozilo i zapravo postoji.
-   - **Napomena:** Još nije potvrđeno vrijedi li bilo koji broj ili mora biti unesen u aplikacijsku bazu podataka.
-
+   > **📝 Napomena:**  
+   Čini se da aplikacija ne provjerava postoji li uistinu upisani broj vozila.
 3. **Ispišite**  
    - Ispišite spremljeni QR kod na malu naljepnicu ili etiketu (na papir za naljepnice ili kao malu laminiranu karticu) s QR kodom i zalijepite ga na često korišteni predmet.
    - **Ne možete** uvesti lokalno spremljeni QR kod izravno u aplikaciju **Moj ZET**, stoga je najpraktičnije imati fizički kod u novčaniku ili privjesku za ključeve.
@@ -136,21 +134,24 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
      - Da biste spriječili neovlašteno mijenjanje, koristite NTAG213 oznake koje podržavaju zaštitu lozinkom.
      - Ako ne namjeravate mijenjati oznaku nakon pisanja, slobodno je zaključajte.
        > **⚠️ Upozorenje:**  
-       >Zaključavanje NFC oznake je trajna akcija. Provjerite jesu li svi podatci ispravni prije nastavka.
+       >Zaključavanje NFC oznake je trajna radnja. Provjerite jesu li svi podatci ispravni prije nastavka.
 
 ---
 
 ## Primjerne datoteke
 
-U mapi [`examples/`](examples) nalaze se:
+U mapi [`examples`](examples) nalazi se:
 
-1. **`qr-example-T9999.png`** – *primjer* QR koda koji sadrži tekst `T9999`.\
+- **`qr-example-T9999.png`** – *primjer* QR koda koji sadrži tekst `T9999`.\
    ![Primjer QR koda s tekstom `T9999`](examples/qr-example-T9999.png)
-   - Služi samo za demonstraciju.
-   - **Nije** pravi ZET garažni broj (bar se nadam).
+  - Služi samo za demonstraciju.
+  - **Nije** pravi ZET garažni broj (bar se nadam).
 
-> **Napomena:** Primjer NTAG213 dump datoteke je izostavljen zbog sigurnosnih i privatnih razloga. Molim pogledajte detaljnu analizu NFC zapisa [u odjeljku *Dodatne tehničke pojedinosti i nalazi*](#dodatne-tehni%C4%8Dke-pojedinosti-i-nalazi) za više informacija.  
-> **Upozorenje:** Ova datoteka prikazuje samo kako podatci mogu izgledati ili biti strukturirani. Ona **ne** predstavlja službeni QR kod i možda neće biti prepoznata od strane **Moj ZET** aplikacije. Koristite na vlastitu odgovornost i uvijek poštujte ZET-ove Uvjete korištenja.
+> **📝 Napomena:**  
+> Primjer NTAG213 dump datoteke je izostavljen zbog sigurnosnih i privatnih razloga. Molim pogledajte detaljnu analizu NFC zapisa [u odjeljku *Dodatne tehničke pojedinosti i nalazi*](#dodatne-tehni%C4%8Dke-pojedinosti-i-nalazi) za više informacija.  
+>
+> **❕ Upozorenje:**  
+> Ova datoteka prikazuje samo kako podatci mogu izgledati ili biti strukturirani. Ona **ne** predstavlja službeni QR kod i možda neće biti prepoznata od strane **Moj ZET** aplikacije. Koristite na vlastitu odgovornost i uvijek poštujte ZET-ove Uvjete korištenja.
 
 ---
 
@@ -268,7 +269,7 @@ graph LR;
 ---
 
 <details markdown="block">
-  <summary>📄 Detaljna analiza NFC zapisa</summary>
+  <summary>📄 Analiza ZET NFC zapisa</summary>
   
 #### Zapis 1: Tekstualni zapis
 
@@ -334,14 +335,14 @@ Ovaj zapis specificira naziv paketa službene **Moj ZET** Android aplikacije (`c
 </details>
 
 <details markdown="block">
-  <summary>📄 Zapis aplikacije za Android (AAR)</summary>
+  <summary>📄 Android Application Record (AAR)</summary>
 
 - **Svrha:**  
   AAR specificira naziv paketa službene **Moj ZET** Android aplikacije (`com.zetmobile`).  
   To osigurava da NFC oznaka pravilno komunicira s namijenjenom aplikacijom, sprječavajući neovlaštene aplikacije da pogrešno interpretiraju podatke oznake.
 
 - **Zapažanje:**  
-  AAR nije potreban da aplikacija pravilno funkcionira u validaciji karata. To je samo sloj pogodnosti.
+  AAR nije potreban da aplikacija pravilno funkcionira u validaciji karata.
 </details>
 
 ---

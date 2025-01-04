@@ -93,8 +93,8 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
    - For instance, use [Project Nayuki's QR Code generator library](https://www.nayuki.io/page/qr-code-generator-library){:target="_blank" rel="noopener"} or another online generator to generate the QR code and save it.
 2. **Enter the Text**
    - For example, `T22130` (tram #22130) or `B375` (bus #375).
-     - Adjust for your preferred or most-frequent vehicle. It doesn't really matter, as long as the vehicle exists.
-   - **Note:** I have yet to confirm whether *any* number works or if it must exist in the app's vehicle database.
+   - **📝 Note:**  
+     It seems that the app does not validate if the vehicle number actually exists.
 3. **Print**
    - Print the saved QR code image on a small sticker or label (on sticker paper, or as a small laminated card) containing the QR code and attach it to a commonly used personal item.
    - You **cannot** import a locally saved QR code *directly* into the **Moj ZET** app, so having a physical code on a wallet/keychain is most convenient.
@@ -132,15 +132,18 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
 
 ## Example Files
 
-In the [`examples/`](examples) folder, you'll find:
+In the [`examples`](examples) folder, you'll find:
 
 - **`qr-example-T9999.png`** – a *sample* QR code encoding the text `T9999`.\
 ![Sample QR code encoding text `T9999`](examples/qr-example-T9999.png)
   - This is purely for demonstration.
   - **Not** an actual ZET vehicle number (hopefully).
 
-> **Note:** A NTAG213 sample dump file has been omitted for security and privacy reasons. Please refer to the [*Detailed NFC Records Analysis* section below](#additional-technical-details--findings) for more information.  
-> **Disclaimer:** This example file is shared solely to illustrate how the data might look or be structured. It **does not** represent an official ZET code and may not be recognised by **Moj ZET**. Use at your own risk, and always follow ZET's Terms & Conditions.
+> **📝 Note:**  
+> A NTAG213 sample dump file has been omitted for security and privacy reasons. Please refer to the [*Detailed NFC Records Analysis* section below](#additional-technical-details--findings) for more information.  
+>
+> **❕ Disclaimer:**  
+> This example file is shared solely to illustrate how the data might look or be structured. It **does not** represent an official ZET code and may not be recognised by **Moj ZET**. Use at your own risk, and always follow ZET's Terms & Conditions.
 
 ---
 
@@ -258,7 +261,7 @@ graph LR;
 ---
 
 <details markdown="block">
-  <summary>📄 Detailed NFC Records Analysis</summary>
+  <summary>📄 ZET NFC Record Analysis</summary>
   
 #### Record 1: Text Record
 
