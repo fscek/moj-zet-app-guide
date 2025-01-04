@@ -142,11 +142,13 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 
 ## Primjeri korištenja unutar aplikacije
 
-Ovaj odjeljak demonstrira korištenje ručno izrađenih QR kodova i NFC oznaka unutar aplikacije.
+Ovaj odjeljak demonstrira korištenje **ručno izrađenih QR kodova i NFC oznaka** unutar aplikacije.
 
 > **📝 Napomena:**  
-Aplikacija ne provjerava postoji li uistinu broj vozila koji ste upisali u QR kod ili NFC oznaku (primijetite izmišljene garažne brojeve poput `T9999`, `B0`, itd. u gornjem lijevom uglu svakog *screenshota*).\
+Aplikacija **ne provjerava** postoji li uistinu broj vozila koji ste zapisali kao QR kod ili NFC oznaku (primijetite izmišljene garažne brojeve poput `T9999`, `B0`, itd. u gornjem lijevom uglu svakog *screenshota*).\
 ![Primjer brojeva vozila u aplikaciji](images/zet-app-vehicle-numbers.png)
+
+Metoda korištena u nastavku za provjeru valjanosti QR/NFC podataka (bez trošenja novca na više karata) je dodirnuti gumb *"Mijenjam vozilo"*. To vam omogućuje opetovano otvaranje prozora za skeniranje karte bez ikakvih ograničenja.
 
 ### Vlastiti QR kodovi
 
@@ -161,7 +163,7 @@ Aplikacija ne provjerava postoji li uistinu broj vozila koji ste upisali u QR ko
 ### Vlastite NFC oznake
 
 > **📝 Napomena:**  
-Ukoliko kupujete kartu putem NFC oznake, dodirnite gumb *ili učitaj NFC oznaku* koji se nalazi u donjoj desnoj strani.
+Ukoliko kupujete kartu putem NFC oznake, dodirnite gumb *"ili učitaj NFC oznaku"* koji se nalazi u donjoj desnoj strani.
 
 *Primjer kako aplikacija prepoznaje ručno izrađene NFC oznake.*
 <div style="position: relative; padding-bottom: 60%; height: 0; overflow: hidden;">
@@ -206,7 +208,7 @@ U aplikaciji **Moj ZET**, prije skeniranja ili očitavanja koda/oznake, možete 
 
 - **ZET kontrolori** uglavnom provjeravaju imate li **valjanu (aktivnu) kartu**. **Ne uspoređuju** garažni broj u aplikaciji s vozilom, jer bi to bilo nepraktično.
   - Karta vrijedi sve dok pokriva odgovarajuću zonu i ima dovoljno preostalog vremena u trenutku provjere.
-- **Trenutačna zapažanja** sugeriraju da kontrolorski sustav **ne** provjerava strogo podudaranje vašeg kôda s pravim brojem vozila, dijelom zbog mogućih problema s ATRON računalima ili izmijenjenih ruta.
+- **Trenutačna zapažanja** sugeriraju da kontrolorski sustav **ne** provjerava strogo podudaranje vašeg kôda s pravim brojem vozila, dijelom zbog mogućih problema s ATRON računalima ili izmijenjenih ruta. Stoga se ta implementacija niti ne očekuje u nadolazeće vrijeme.
   - Više detalja o ATRON sustavu možete pronaći [ovdje](https://mreza.bug.hr/promo/atron-ov-kontrolni-centar-24236){:target="_blank" rel="noopener"}.
 - **GPS/Lokacija:** Ako je uključena, aplikacija može koristiti lokaciju vašeg telefona kako bi postavila zonu, ali zonu uvijek možete postaviti i ručno.
 

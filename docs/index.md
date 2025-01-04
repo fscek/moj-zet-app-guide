@@ -134,11 +134,13 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
 
 ## In-App Usage Examples
 
-This section demonstrates the usage of custom QR codes and NFC tags inside of the app.
+This section demonstrates the usage of **custom QR codes and NFC tags** inside of the app.
 
 > **📝 Note:**  
-The app does not care if the vehicle number you wrote inside of the QR code/NFC tag truly exists (note the ficticious vehicles like `T9999`, `B0`, etc. in the upper left corner of every screenshot).\
+The app **does not care** if the vehicle number you wrote inside of the QR code/NFC tag truly exists (note the ficticious vehicles like `T9999`, `B0`, etc. in the upper left corner of every screenshot).\
 ![Vehicle number examples inside of the app](images/zet-app-vehicle-numbers.png)
+
+The method used below to check if the QR/NFC data is valid (without wasting money on multiple tickets), is to tap the *"I'm changing the vehicle"* button. That enables you to repeatedly open the ticket scanning window without any limitations.
 
 ### Custom QR codes
 
@@ -153,7 +155,7 @@ The app does not care if the vehicle number you wrote inside of the QR code/NFC 
 ### Custom NFC tags
 
 > **📝 Note:**  
-If buying a ticket using an NFC tag, just remember to tap the *Or read NFC mark* button in the bottom right.
+If buying a ticket using an NFC tag, just remember to tap the *"Or read NFC mark"* button in the bottom right.
 
 *This video shows how the app recognises custom NFC tags.*
 <div style="position: relative; padding-bottom: 60%; height: 0; overflow: hidden;">
@@ -196,9 +198,9 @@ In the **Moj ZET** app, before scanning or detecting a code/tag, you can select:
 
 ## Usage & Validation Notes
 
-- **ZET Ticket Inspectors** generally just check for an **active ticket**. They do **not** compare your vehicle number to the actual vehicle, as this would be cumbersome.
+- **ZET Ticket Inspectors** generally just check for an **active ticket**. They do **not** compare your vehicle's number to the actual vehicle you're in, as this would be cumbersome.
   - A ticket is valid as long as it's for the correct zone and with enough remaining time at the moment of inspection.
-- **Current Observations** suggest that the ticket inspection system does **not** verify your code against the actual vehicle's number, due to potential syncing/technical issues with onboard ATRON computers or route changes.
+- **Current Observations** suggest that the ticket inspection system does **not** verify your code against the actual vehicle's number, due to potential syncing/technical issues with onboard ATRON computers or route changes. Therefore, this feature is not expected to be implemented in the near future.
   - More details on the ATRON system can be found [here](https://mreza.bug.hr/promo/atron-ov-kontrolni-centar-24236){:target="_blank" rel="noopener"}.
 - **GPS/Location:** If enabled, the app may use your phone's location to suggest a zone, but you can always set it manually.
 
