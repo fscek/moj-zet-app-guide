@@ -150,22 +150,26 @@ Aplikacija ne provjerava postoji li uistinu broj vozila koji ste upisali u QR ko
 
 ### Vlastiti QR kodovi
 
-*Primjer kako aplikacija prepoznaje ručno izrađene QR kodove.*\
-<video controls>
-  <source src="videos/custom-qr-scanning-in-app.webm" type="video/webm">
-  Vaš preglednik ne podržava ovaj video.
-</video>
+*Primjer kako aplikacija prepoznaje ručno izrađene QR kodove.*
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    <source src="videos/custom-qr-scanning-in-app.webm" type="video/webm">
+    Vaš preglednik ne podržava ovaj video.
+  </video>
+</div>
 
 ### Vlastite NFC oznake
 
 > **📝 Napomena:**  
 Ukoliko kupujete kartu putem NFC oznake, dodirnite gumb *ili učitaj NFC oznaku* koji se nalazi u donjoj desnoj strani.
 
-*Primjer kako aplikacija prepoznaje ručno izrađene NFC oznake.*\
-<video controls>
-  <source src="videos/custom-nfc-scanning-in-app.webm" type="video/webm">
-  Vaš preglednik ne podržava ovaj video.
-</video>
+*Primjer kako aplikacija prepoznaje ručno izrađene NFC oznake.*
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    <source src="videos/custom-nfc-scanning-in-app.webm" type="video/webm">
+    Vaš preglednik ne podržava ovaj video.
+  </video>
+</div>
 
 ---
 

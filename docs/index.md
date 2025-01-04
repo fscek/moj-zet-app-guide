@@ -142,22 +142,26 @@ The app does not care if the vehicle number you wrote inside of the QR code/NFC 
 
 ### Custom QR codes
 
-*This video shows how the app recognises custom QR codes.*\
-<video controls>
-  <source src="videos/custom-qr-scanning-in-app.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+*This video shows how the app recognises custom QR codes.*
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    <source src="videos/custom-qr-scanning-in-app.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ### Custom NFC tags
 
 > **📝 Note:**  
 If buying a ticket using an NFC tag, just remember to tap the *Or read NFC mark* button in the bottom right.
 
-*This video shows how the app recognises custom NFC tags.*\
-<video controls>
-  <source src="videos/custom-nfc-scanning-in-app.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+*This video shows how the app recognises custom NFC tags.*
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <video controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    <source src="videos/custom-nfc-scanning-in-app.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ---
 
