@@ -5,6 +5,8 @@
 [![Last Commit](https://img.shields.io/github/last-commit/fscek/moj-zet-app-guide.svg)](https://github.com/fscek/moj-zet-app-guide/commits/main)
 [![Build Status](https://github.com/fscek/moj-zet-app-guide/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/fscek/moj-zet-app-guide/actions/workflows/pages/pages-build-deployment)
 
+---
+
 A **practical guide** for using the [**Moj ZET**](https://www.zet.hr/cijene-prodaja-i-placanje/aplikacija-mojzet/8098) mobile app, focusing on **advanced ticket purchase** via custom QR codes or NFC tags.  
 Written for **educational and informational** purposes only — see the disclaimers below.
 
