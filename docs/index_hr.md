@@ -62,8 +62,12 @@ Za službene upute o instalaciji i korištenju aplikacije, pogledajte [vodič na
 
 Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniranjem naljepnice s informacijama kao što su:
 
-- **Tramvaji:** `T<BROJ_GARAŽE_VOZILA>` (npr. `T22130` za tramvaj garažnog broja 22130)
-- **Autobusi:** `B<BROJ_GARAŽE_VOZILA>` (npr. `B375` za autobus garažnog broja 375)
+- **Tramvaji:** `T<GARAŽNI_BROJ_VOZILA>` (npr. `T22130` za tramvaj garažnog broja 22130)
+- **Autobusi:** `B<GARAŽNI_BROJ_VOZILA>` (npr. `B375` za autobus garažnog broja 375)
+- **Uspinjača:** `t<GARAŽNI_BROJ_VOZILA>` (npr. `f1` za uspinjaču br. 1)
+  > **📝 Napomena:**
+  ID-evi za uspinjače su zapisani **malim slovima**.
+
 
 *Vozila s navedenim garažnim brojevima:*\
 ![Vozila s navedenim garažnim brojevima](images/230529_Moj_ZET_resized_1.jpeg)\
@@ -99,7 +103,8 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 2. **Unesite tekst**  
    - Na primjer, `T22130` (tramvaj #22130) ili `B375` (autobus #375).
      > **📝 Napomena:**  
-     Čini se da aplikacija ne provjerava postoji li uistinu upisani broj vozila.
+     Čini se da aplikacija ne provjerava postoji li uistinu upisani broj vozila.  
+     Nakon prefiksa `T` ili `B` dopušten je unos do 9 brojeva. Također, funkcionira čak i zapisano malim slovima (`t123456789` ili `b123456789`), ali su uspinjače identificirane samo malim slovima.
 3. **Ispišite**  
    - Ispišite spremljeni QR kod na malu naljepnicu ili etiketu (na papir za naljepnice ili kao malu laminiranu karticu) s QR kodom i zalijepite ga na često korišteni predmet.
    - **Ne možete** uvesti lokalno spremljeni QR kod izravno u aplikaciju **Moj ZET**, stoga je najpraktičnije imati fizički kod u novčaniku ili privjesku za ključeve.
@@ -122,7 +127,8 @@ Aplikacija **Moj ZET** obično identificira vozilo na kojem se nalazite skeniran
 3. **Kreirajte tekstualni zapis (NDEF)**
    - Zapišite jednostavan `Text Record` (NDEF) zapis s odabranim brojem vozila, npr. `T22130` ili `B375`.
      > **📝 Napomena:**  
-     Čini se da aplikacija ne provjerava postoji li uistinu upisani broj vozila.
+     Čini se da aplikacija ne provjerava postoji li uistinu upisani broj vozila.  
+     Nakon prefiksa `T` ili `B` dopušten je unos do 9 brojeva. Također, funkcionira čak i zapisano malim slovima (`t123456789` ili `b123456789`), ali su uspinjače identificirane samo malim slovima.
    - **Preporuka:**  
      Fokusirajte se isključivo na kreiranje **`Text Record`** zapisa za jednostavnost i izbjegavanje nepotrebne složenosti (npr. izostavljanjem Firebase `URI` i `AAR` - više detalja pronađite [u odjeljku *Dodatne tehničke pojedinosti i nalazi*](#dodatne-tehni%C4%8Dke-pojedinosti-i-nalazi)).
 
