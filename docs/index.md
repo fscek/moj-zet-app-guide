@@ -57,11 +57,14 @@ For official app installation and usage instructions, see [this guide](https://w
 
 The **Moj ZET** app typically identifies the vehicle you're on by scanning a sticker containing information like:
 
-- **Trams:** `T<VEHICLE_GARAGE_NUMBER>` (e.g., `T22130` for a tram numbered 22130)
-- **Buses:** `B<VEHICLE_GARAGE_NUMBER>` (e.g., `B375` for a bus numbered 375)
+- **Trams:** `T<VEHICLE_DEPOT_NUMBER>` (e.g., `T22130` for a tram numbered 22130)
+- **Buses:** `B<VEHICLE_DEPOT_NUMBER>` (e.g., `B375` for a bus numbered 375)
+- **Funicular:** `f<VEHICLE_DEPOT_NUMBER>` (e.g., `f1` for funicular no. 1)
+  > **📝 Note:**
+  Funicular IDs are strictly **written in lower-case**.
 
-*Vehicles bearing the aforementioned garage numbers:*\
-![Vehicles bearing the aforementioned garage numbers](images/230529_Moj_ZET_resized_1.jpeg)\
+*Vehicles bearing the aforementioned depot numbers:*\
+![Vehicles bearing the aforementioned depot numbers](images/230529_Moj_ZET_resized_1.jpeg)\
 *Source: City of Zagreb via [www.zagreb.hr](https://www.zagreb.hr/en/predstavljena-aplikacija-moj-zet-za-digitalnu-kupn/188168){:target="_blank" rel="noopener"}*
 
 ### About The ZET Stickers
@@ -77,7 +80,7 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
 
 #### NFC Tags (NTAG213)
 
-- Official ZET NFC stickers contain the same `T22130` text (or whichever the garage number is), along with some secondary records and metadata used by the app.
+- Official ZET NFC stickers contain the same `T22130` text (or whichever the vehicle's depot number is), along with some secondary records and metadata used by the app.
 - They use the **NDEF** format on an **NTAG213** chip.
 - The NFC tag, while slightly hidden on the front of the sticker, can be clearly seen when viewing the sticker from the back:\
 ![NTAG213 tag example](images/moj-ZET-QR-karta-tramvaj-Zagreb-2.jpeg)\
@@ -94,7 +97,8 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
 2. **Enter the Text**
    - For example, `T22130` (tram #22130) or `B375` (bus #375).
      > **📝 Note:**  
-     It seems that the app does not validate if the vehicle number actually exists.
+     The app does not validate if the vehicle number actually exists.  
+     Up to 9 numbers are allowed after the `T` or `B` prefix. Also, even lowercase text works in case of buses and trams (`t123456789` or `b123456789`), but funiculars are only identified using lowercase text.
 3. **Print**
    - Print the saved QR code image on a small sticker or label (on sticker paper, or as a small laminated card) containing the QR code and attach it to a commonly used personal item.
    - You **cannot** import a locally saved QR code *directly* into the **Moj ZET** app, so having a physical code on a wallet/keychain is most convenient.
@@ -116,7 +120,8 @@ The **Moj ZET** app typically identifies the vehicle you're on by scanning a sti
 3. **Create a Text Record**
    - Write a simple `Text Record` (NDEF) with your chosen vehicle number, e.g., `T22130` or `B375`.
      > **📝 Note:**  
-     It seems that the app does not validate if the vehicle number actually exists.
+     The app does not validate if the vehicle number actually exists.  
+     Up to 9 numbers are allowed after the `T` or `B` prefix. Also, even lowercase text works in case of buses and trams (`t123456789` or `b123456789`), but funiculars are only identified using lowercase text.
    - **Recommendation:**  
      Focus solely on creating the **`Text Record`** for simplicity and to avoid unnecessary complexity (e.g., excluding the Firebase `URI` and `AAR` - more details found in the [*Detailed NFC Records Analysis* section below](#additional-technical-details--findings)).
 4. **Write The Record To a Tag**
@@ -313,7 +318,7 @@ graph LR;
 - **Payload:** `[SANITISED]`
 
 **Explanation:**  
-This text record contains the vehicle identifier (`T22130`), which the **Moj ZET** app uses to recognise the specific tram. The prefix `T` denotes a **tram**, followed by its unique vehicle garage number.
+This text record contains the vehicle identifier (`T22130`), which the **Moj ZET** app uses to recognise the specific tram. The prefix `T` denotes a **tram**, followed by its unique vehicle depot number.
 
 #### Record 2: URI Record
 
